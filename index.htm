@@ -34,9 +34,30 @@ td {  text-align: center;}
 	
 </style>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+
+function create_array(){
+$(document).ready(function(){
+
+		var player_array = [];
+		$('li').each(function(i, elem) {
+    		player_array.push( $(elem).text());
+		});
+		
+		
+		localStorage.setItem("p_array", JSON.stringify(player_array));
+
+		
+;})
+
+}
+
+</script>
 </head>
 
-<body lang=EN-GB>
+<body onload="create_array()">
+
 
 <div class=Section1>
 
@@ -98,15 +119,100 @@ td {  text-align: center;}
 <tr/>
 <tr>
 <td><p class=MsoNormal>&nbsp;</p>
-<p class=MsoNormal><span style='font-size:24.0pt;font-family:Calibri'><a href="winners r1.htm">Round 1 Winners</a></span></p>
+<p class=MsoNormal><span style='font-size:24.0pt;font-family:Calibri'><a href="matches r2.htm">Matches</a></span></p>
 <td/>
 <tr/>
 <tr>
 <td><p class=MsoNormal>&nbsp;</p>
-<p class=MsoNormal><span style='font-size:24.0pt;font-family:Calibri'><a href="matches r2.htm">Round 2 Matches</a></span></p>
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:Calibri'>Please report results to Tony Trinder <br> (caroletrinder@hotmail.co.uk - 01707 266302)</span></p>
 <td/>
 <tr/>
 </table>
+</div>
+<div section2>
+<ul hidden style='margin-top:0cm' type=disc>
+ <li class=MsoNormal>Chichester, Andrew - County Club</li>
+ <li class=MsoNormal>Andrews, Michael - Frank's</li>
+ <li class=MsoNormal>Andrews, Stephen - Frank's</li>
+ <li class=MsoNormal>Chan, Richard - Frank's</li>
+ <li class=MsoNormal>Lampey, Robert - Frank's</li>
+ <li class=MsoNormal>Smith, Des - Frank's</li>
+ <li class=MsoNormal>Smith, Sid - Frank's</li>
+ <li class=MsoNormal>Dimaio, Rino - Goffs Oak A</li>
+ <li class=MsoNormal>Ebbs, John - Goffs Oak A</li>
+ <li class=MsoNormal>Grainger, Martin - Goffs Oak A</li>
+ <li class=MsoNormal>Hicks, Chris - Goffs Oak B</li>
+ <li class=MsoNormal>Tilson, Jem - Goffs Oak B</li>
+ <li class=MsoNormal>Shaw, Benjamin - Haldens</li>
+ <li class=MsoNormal>Bartropp, Steve - Haldens A</li>
+ <li class=MsoNormal>Pilborough, Mark - Haldens A</li>
+ <li class=MsoNormal>Read, Dave - Haldens A</li>
+ <li class=MsoNormal>Cartwright, Bob - Haldens B</li>
+ <li class=MsoNormal>Marchese, Joe - Haldens B</li>
+ <li class=MsoNormal>O'Connor, Paul - Haldens B</li>
+ <li class=MsoNormal>O'Connor, Rory - Haldens B</li>
+ <li class=MsoNormal>Clarke, Andy - Haldens C</li>
+ <li class=MsoNormal>Gibson, Dylan - Haldens C</li>
+ <li class=MsoNormal>Motekhasses, Bijan - Haldens D</li>
+ <li class=MsoNormal>Somerfield, Benjamin - Haldens F</li>
+ <li class=MsoNormal>Deo, Satnam - North Mymms A</li>
+ <li class=MsoNormal>Elias, Iyad - North Mymms A</li>
+ <li class=MsoNormal>Gibbs, Steve - North Mymms A</li>
+ <li class=MsoNormal>Miller, Stephen - North Mymms A</li>
+ <li class=MsoNormal>Powell, Rob - North Mymms A</li>
+ <li class=MsoNormal>Currie, Steve - North Mymms B</li>
+ <li class=MsoNormal>Hilborne, Steve - North Mymms B</li>
+ <li class=MsoNormal>Lightfoot, Neil - North Mymms B</li>
+ <li class=MsoNormal>Sanders, Ian - North Mymms B</li>
+ <li class=MsoNormal>Tehrani, Ali - North Mymms B</li>
+ <li class=MsoNormal>Doocey, Liam - North Mymms C</li>
+ <li class=MsoNormal>Herdman, Andy - North Mymms C</li>
+ <li class=MsoNormal>Kightley, Oliver - Welwyn B</li>
+ <li class=MsoNormal>Poulter, Adrian - County Club</li>
+ <li class=MsoNormal>Smith, Steve - County Club</li>
+ <li class=MsoNormal>Spinks, John - Frank's</li>
+ <li class=MsoNormal>Wong, Kit - Frank's</li>
+ <li class=MsoNormal>Batehup, Keith - North Mymms B</li>
+ <li class=MsoNormal>Lynch, Sean - North Mymms B</li>
+ <li class=MsoNormal>Trinder, Tony - North Mymms B</li>
+ <li class=MsoNormal>Howe, David - Welwyn E</li>
+ <li class=MsoNormal>Colborne, David - Haldens</li>
+ <li class=MsoNormal>Hampton, Stephen - Haldens</li>
+ <li class=MsoNormal>White, Shayne - Haldens B</li>
+ <li class=MsoNormal>Patel, Hemant - Haldens C</li>
+ <li class=MsoNormal>Pond, Callum - Haldens C</li>
+ <li class=MsoNormal>Caulfield, Sean - North Mymms C</li>
+ <li class=MsoNormal>Chapman, Bob - Welwyn A</li>
+ <li class=MsoNormal>Chapman, Sean - Welwyn A</li>
+ <li class=MsoNormal>McCague, Hugh - Welwyn A</li>
+ <li class=MsoNormal>Goldsmith, Darren - Welwyn B</li>
+ <li class=MsoNormal>Hodgson, Nick - Welwyn B</li>
+ <li class=MsoNormal>Lund, Simon - Welwyn B</li>
+ <li class=MsoNormal>Potts, John - Welwyn B</li>
+ <li class=MsoNormal>Warner, Peter - Welwyn B</li>
+ <li class=MsoNormal>Wilde, David - Welwyn B</li>
+ <li class=MsoNormal>Bailey, Rob - Welwyn D</li>
+ <li class=MsoNormal>Brunel, Nick - Welwyn D</li>
+ <li class=MsoNormal>Brunson, Rob - Welwyn D</li>
+ <li class=MsoNormal>Carter, Eric - Welwyn D</li>
+ <li class=MsoNormal>Cooper, Denis - Welwyn D</li>
+ <li class=MsoNormal>Digby, Wayne - Welwyn D</li>
+ <li class=MsoNormal>Hale, Lee - Welwyn D</li>
+ <li class=MsoNormal>Thompson, Jim - Welwyn D</li>
+ <li class=MsoNormal>Bonner, Kevin - Haldens</li>
+ <li class=MsoNormal>Reade, Liam - Haldens A</li>
+ <li class=MsoNormal>Grant, Paul - Goffs Oak A</li>
+ <li class=MsoNormal>Hannibal, David - Goffs Oak B</li>
+ <li class=MsoNormal>Paterson-Proto, Jordan - Haldens A</li>
+ <li class=MsoNormal>Alger, Alan - Goffs Oak B</li>
+ <li class=MsoNormal>Reade, Gordon - Haldens A</li>
+ <li class=MsoNormal>Atherley, Ryan - Haldens D</li>
+ <li class=MsoNormal>Bunney, David - Haldens</li>
+ <li class=MsoNormal>Harding, Ricky - Haldens</li>
+ <li class=MsoNormal>Merryfield, Phillip - Haldens</li>
+ <li class=MsoNormal>Alexander, Adam - Haldens</li>
+ <li class=MsoNormal>Howe, Graham - Welwyn</li>
+</ul>
 
 
 </div>
