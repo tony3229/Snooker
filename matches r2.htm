@@ -7,102 +7,30 @@
 <meta name=Generator content="Microsoft Word 11 (filtered)">
 <title>Round 2 Matches</title>
 
-
+<link rel="stylesheet" href="stylesheet.css">
 
 <style>
-#snackbar {
-    visibility: hidden;
-    min-width: 250px;
-    margin-left: -125px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    border-radius: 2px;
-    padding: 16px;
-    position: fixed;
-    z-index: 1;
-    left: 50%;
-    bottom: 30px;
-    font-size: 17px;
-}
-#snackbar.show {
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
 
-@-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;} 
-    to {bottom: 30px; opacity: 1;}
-}
-
-@keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
-}
-
-@-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;} 
-    to {bottom: 0; opacity: 0;}
-}
-
-@keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
-}
 
 </style>
 
 
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  
-	$("td").mouseover(function(){var color = $(this).css("background-color");
-	
-	
-  	if(color<>color){$(this).append("T");}
-	});
-  
-});
-</script>
 
-<script>
-
-$(function() {
-  function myFunction() {
-        var x = document.getElementById("snackbar")
-        x.className = "show";
-        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-  }
-
-  $("td").on('click', function(e) {
-    myFunction();
-  })
-
-});
+<script type = "text/javascript" src="js_script_file.js"></script>
 
 
-</script>
 
 
 </head>
 
-
-</head>
-
-<body lang=EN-GB>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<body onload="getarray()">
 
 
 
-
-<div id="snackbar">Test - Player detail (club, tel no et).</div>
-
-
-
-<div class=Section1>
+<div id=match class=Section1>
 
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=619
  style='width:464.0pt;border-collapse:collapse'>
@@ -152,12 +80,16 @@ $(function() {
   2 Winner(s)</span></b></p>
   </td>
  </tr>
+
  <tr style='height:12.75pt'>
   <td width=191 valign=bottom style='width:143.0pt;border:solid windowtext 1.0pt;
   border-top:none;background:#FF99CC;padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt'>
-  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Hilborne,
+  
+<p >Hilborne
   Steve</span></p>
-  </td>
+ 
+ </td>
+
   <td width=47 valign=bottom style='width:35.0pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:12.75pt'>
@@ -1303,11 +1235,13 @@ $(function() {
   </td>
  </tr>
  <tr style='height:25.5pt'>
+
   <td width=191 valign=bottom style='width:143.0pt;border:solid windowtext 1.0pt;
   border-top:none;background:#CC99FF;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt'>
   <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>McCague,
   Hugh / Skeggs, David (19)</span></p>
   </td>
+
   <td width=47 valign=bottom style='width:35.0pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt'>
