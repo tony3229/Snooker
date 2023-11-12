@@ -1,7 +1,35 @@
 
+$(document).ready(function(){
+
+
+$("a").click(function(){
+ 
+sz = $(this).find("span").css("font-size");
+alert(sz);
+});
+
+});
+
+
+function getsize(){
+
+ sz = $(this).find("span").css("font-size");
+alert(sz);
+};
 
 
 
+$(document).ready(function(){
+
+	$("td").mouseout(function(){
+
+	 	if(ck){
+			$(this).text(pla);   $(this).css({"font-size":sz});   ck=false; 
+		      };    
+			         });
+});
+
+/*$(this).css({"font-size":"13px","font-family":"arial"});*/
 
 
 $(document).ready(function(){
@@ -13,9 +41,13 @@ $(function() {
         setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
   }
 
-
-	$("p").on('click', function(e) {player = $(this).text();
+/*have changed p to td */
+	$("td").on('click', function(e) {player = $(this).text();
 	
+	/* if the line below is placed lower in the code, it returns undefined*/
+
+	sz = $(this).find("span").css("font-size");
+
 		if (player?.trim().length > 0) {
 	
 			fnd = "Not Found";
@@ -43,6 +75,22 @@ $(function() {
 			
 			{$("#snackbar").text(club);
 			
+			pla =$(this).text();/*mouseout event will return to this player name*/
+
+			$(this).text(club);
+
+
+
+			
+	new_sz = Math.round(((parseInt(sz) * 100)*1.5)/100);
+
+	new_sz = new_sz.toString() + "px";
+
+
+	$(this).css({"font-size":new_sz,"font-family":"arial"});
+
+			ck = true;
+			
     			showsnackbar();};	
 					
 		;}; /*end if player length*/
@@ -50,7 +98,7 @@ $(function() {
 	}); /* end of on click */
 					
 
-}); /* end of function */
+}); /* end of function*/
 }); /* end of doc ready*/
 
 function getarray(){
