@@ -43,7 +43,7 @@ $(document).ready(function(){
 
 $(function() {
   function showsnackbar() {
-        var x = document.getElementById("snackbar")
+        var a = document.getElementById("snackbar")
         x.className = "show";
         setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
   }
