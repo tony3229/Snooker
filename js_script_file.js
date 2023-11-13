@@ -48,7 +48,7 @@ $(function() {
         setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
   }
 
-	$("td").on('click', function(e) {
+	$("a").on('click', function(e) {
 
 		/* if the cell was prevously clicked, it returns it to its orifinal content and format*/
 		/* by taking the info from the store attached to the element*/
