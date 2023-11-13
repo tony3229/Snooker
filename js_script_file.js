@@ -43,12 +43,12 @@ $(document).ready(function(){
 
 $(function() {
   function showsnackbar() {
-        var a = document.getElementById("snackbar")
+        var x = document.getElementById("snackbar")
         x.className = "show";
         setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
   }
 
-	$("a").on('click', function(e) {
+	$("td").on('click', function(e) {
 
 		/* if the cell was prevously clicked, it returns it to its orifinal content and format*/
 		/* by taking the info from the store attached to the element*/
@@ -90,7 +90,7 @@ x = "start";
 	
 
 
-	if (player?.trim().length == 0) {return};
+	if (player?.trim().length == 0) {$("#lastspan").attr("id","");return;};
 	
 	fnd = "Not Found";
 			
