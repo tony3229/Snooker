@@ -115,7 +115,7 @@ x = "start";
 				};
 	*/		
 
-	if(fnd=="Not Found"){alert("not found");$("#lastspan").attr("id","");return;}else
+	if(fnd=="Not Found"){$("#lastspan").attr("id","");return;}else
 			
 	{$("#snackbar").text(club);
 			
