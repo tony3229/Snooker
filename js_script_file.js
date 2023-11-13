@@ -17,21 +17,28 @@ function getsize(){
 alert(sz);
 };
 
-
+/*when mousee moves out of <td>, if it had been clicked and detail added, it should be replaced with the original info*/
 
 $(document).ready(function(){
 
-	$("td").mouseout(function(){
+	$("a").mouseout(function(){    
 
-	 	if(ck){
-			$(this).text(pla);   $(this).css({"font-size":sz});   ck=false; 
+	 	if(ck){	alert($("#last").text());
+			$(this).text(pla);   $(this).css({"font-size":sz});
+			$(this).text(player_before_change);
+			ck=false; 
 		      };    
 			         });
 });
 
-/*$(this).css({"font-size":"13px","font-family":"arial"});*/
+
+/*remove these variables*/
+var ck;
+var sz;
+var player_before_change;
 
 
+/*main function to show additional data and snackbar*/
 $(document).ready(function(){
 
 $(function() {
@@ -41,59 +48,97 @@ $(function() {
         setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
   }
 
-/*have changed p to td */
-	$("td").on('click', function(e) {player = $(this).text();
-	
-	/* if the line below is placed lower in the code, it returns undefined*/
+	$("td").on('click', function(e) {
 
-	sz = $(this).find("span").css("font-size");
-
-		if (player?.trim().length > 0) {
-	
-			fnd = "Not Found";
+		/* if the cell was prevously clicked, it returns it to its orifinal content and format*/
+		/* by taking the info from the store attached to the element*/
+		
+		/* if last action was a matched click then return that cell to its original */
+		/* if the new click is the same cell as the last click then exit are resetting the contents */
+		/* if its not thee same then reset the contents and continue as if it was a new click */
+x = "start";
+		if(ck){
+			if($(this).find("span").attr("id")=="lastspan")
 			
-
-			/*remove new line introduced when getting variable from a table*/
-			player = player. replace(/(\r\n|\n|\r)/gm,""); 
-			/* remove double white space*/
-			player = player.replace(/\s+/g," ");
-			
-			separate_doubles();
-
-			remove_hcap();
-
-			for(i=0;i<ls.length;i++){if(ls[i].includes(player)){club= ls[i];fnd = "Found";i=ls.length;};};	
-			
-			if(doubles_flag ==true){
+			{reset_to_original();ck=false;x = "end";return;}
+			else
+			{reset_to_original();ck=false;x = "continue";}
 				
-				for(i=0;i<ls.length;i++){if(ls[i].includes(player2)){club= club + " / " + ls[i];fnd = "Found";i=ls.length;};};
-				};		
+		;};/*end if ck*/
 
+	
+
+
+	/* store data from the clicked td under the element*/
+	player = $(this).text();
+	
+	/*$(this).attr("id","last");*/
+	
+
+	/*SEEMS THAT SPAN IS LOST WHEN THE ID IS CHANGED
+	
+	/*sz = $("#last").find("span").css("font-size");*/
+	
+	$(this).find("span").attr("id","lastspan");
+
+	sz = $("#lastspan").css("font-size");
+
+
+	
+	$("#lastspan").data("name",player);
+	$("#lastspan").data("size",sz);
+	
+
+
+	if (player?.trim().length == 0) {return};
+	
+	fnd = "Not Found";
 			
 
-			if(fnd=="Not Found"){}else
+	/*remove new line introduced when getting variable from a table*/
+	player = player. replace(/(\r\n|\n|\r)/gm,""); 
+	/* remove double white space*/
+	player = player.replace(/\s+/g," ");
+		
+	/* the matches page shows doubles players with a / between them - this routine will find both players*/	
+	separate_doubles();
+
+	/* remove the handicap and ^ and * so it be used to find in the array*/	
+	remove_hcap();
+
+	/* look for the adjusted player( extra characters removed) in the array*/ 		
+	for(i=0;i<ls.length;i++){if(ls[i].includes(player)){club= ls[i];fnd = "Found";i=ls.length;};};	
 			
-			{$("#snackbar").text(club);
+	/*if(doubles_flag ==true){
+				
+	for(i=0;i<ls.length;i++){if(ls[i].includes(player2)){club= club + " / " + ls[i];fnd = "Found";i=ls.length;};};
+				};
+	*/		
+
+	if(fnd=="Not Found"){alert("not found");$("#lastspan").attr("id","");return;}else
 			
-			pla =$(this).text();/*mouseout event will return to this player name*/
-
-			$(this).text(club);
-
-
-
+	{$("#snackbar").text(club);
 			
+
+	$("#lastspan").text(club);
+
+		
 	new_sz = Math.round(((parseInt(sz) * 100)*1.5)/100);
 
 	new_sz = new_sz.toString() + "px";
 
+	$("#lastspan").css("font-size",new_sz);
 
-	$(this).css({"font-size":new_sz,"font-family":"arial"});
 
-			ck = true;
+	ck = true;
+
+			/*$(this).data("click",true);*/
 			
     			showsnackbar();};	
 					
-		;}; /*end if player length*/
+		/*;}; end if player length*/
+
+
 	
 	}); /* end of on click */
 					
@@ -119,11 +164,19 @@ function getarray(){
 
 
 
+function reset_to_original(){ 
+				
+				$("#lastspan").css({"font-size":sz,"font-family":"arial"});
+				$("#lastspan").text($("#lastspan").data("name"));
+				/*$("#lastspan").data("click",false);*/
+				$("#lastspan").attr("id","old");
+				
+			};
 
 
 
 /* it is possible for some doubles players not to be found in the player array if they are a partner and have not entered any individual comps*/
-/*need to change the Excel query to pick these up */
+/*need to change the Excel query to pick these up = think this has now been done*/
 
 function separate_doubles(){
 	doubles_flag = false;
