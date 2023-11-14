@@ -3,6 +3,8 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=Generator content="Microsoft Word 11 (filtered)">
+
+<link rel=Stylesheet type="text/css" media=all href=stylesheet.css>
 <style>
 <!--
  /* Font Definitions */
@@ -35,30 +37,17 @@ td {  text-align: center;}
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script  type="text/javascript" src="js_script_file.js">
+</script>
+
 <script>
 
-function create_array(){
-$(document).ready(function(){
 
-		var player_array = [];
-		$('li').each(function(i, elem) {
-    		player_array.push( $(elem).text());
-		});
-		
-		
-		localStorage.setItem("p_array", JSON.stringify(player_array));
-
-		
-;})
-
-}
 
 </script>
 </head>
 
 <body onload="create_array()">
-
-
 <div class=Section1>
 
 <p class=MsoNormal>&nbsp;</p>
@@ -68,6 +57,7 @@ $(document).ready(function(){
 <p class=MsoNormal>
 
 <table class="big">
+
  <tr>
   <td width=7 height=6></td>
  </tr>
@@ -76,7 +66,8 @@ $(document).ready(function(){
  <td><img width=543 height=316
   src="triangle.jpg">
 </td>
- </tr>
+ 
+</tr>
 
 <tr>
 <td>
@@ -129,9 +120,10 @@ $(document).ready(function(){
 <tr/>
 </table>
 </div>
-<div section2>
+<div class=Section1>
+
 <ul hidden style='margin-top:0cm' type=disc>
- <li class=MsoNormal>Chichester, Andrew - County Club</li>
+ <li class=MsoNormal> - County Club</li>
  <li class=MsoNormal>Andrews, Michael - Frank's</li>
  <li class=MsoNormal>Andrews, Stephen - Frank's</li>
  <li class=MsoNormal>Chan, Richard - Frank's</li>
@@ -201,19 +193,29 @@ $(document).ready(function(){
  <li class=MsoNormal>Thompson, Jim - Welwyn D</li>
  <li class=MsoNormal>Bonner, Kevin - Haldens</li>
  <li class=MsoNormal>Reade, Liam - Haldens A</li>
+ <li class=MsoNormal>Peters, Peter - Goffs Oak A</li>
  <li class=MsoNormal>Grant, Paul - Goffs Oak A</li>
+ <li class=MsoNormal>Locke, Mike - Goffs Oak A</li>
  <li class=MsoNormal>Hannibal, David - Goffs Oak B</li>
+ <li class=MsoNormal>Merrifield, Philip - Haldens</li>
  <li class=MsoNormal>Paterson-Proto, Jordan - Haldens A</li>
+ <li class=MsoNormal>Payne, Mark - Haldens D</li>
+ <li class=MsoNormal>Sachs, Kim - North Mymms A</li>
  <li class=MsoNormal>Alger, Alan - Goffs Oak B</li>
+ <li class=MsoNormal>Taylor, Jamie - Goffs Oak B</li>
  <li class=MsoNormal>Reade, Gordon - Haldens A</li>
+ <li class=MsoNormal>Soderberg, Scott - Haldens C</li>
  <li class=MsoNormal>Atherley, Ryan - Haldens D</li>
+ <li class=MsoNormal>O'Neill, Steve - Haldens D</li>
+ <li class=MsoNormal>Feuell, Mark - North Mymms C</li>
+ <li class=MsoNormal>Cheriton, Che - Welwyn A</li>
+ <li class=MsoNormal>Skeggs, David - Welwyn A</li>
  <li class=MsoNormal>Bunney, David - Haldens</li>
  <li class=MsoNormal>Harding, Ricky - Haldens</li>
  <li class=MsoNormal>Merryfield, Phillip - Haldens</li>
  <li class=MsoNormal>Alexander, Adam - Haldens</li>
  <li class=MsoNormal>Howe, Graham - Welwyn</li>
 </ul>
-
 
 </div>
 

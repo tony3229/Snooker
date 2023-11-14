@@ -1,41 +1,11 @@
 
-$(document).ready(function(){
 
 
-$("a").click(function(){
- 
-sz = $(this).find("span").css("font-size");
-alert(sz);
-});
-
-});
 
 
-function getsize(){
-
- sz = $(this).find("span").css("font-size");
-alert(sz);
-};
-
-/*when mousee moves out of <td>, if it had been clicked and detail added, it should be replaced with the original info*/
-
-$(document).ready(function(){
-
-	$("a").mouseout(function(){    
-
-	 	if(ck){	alert($("#last").text());
-			$(this).text(pla);   $(this).css({"font-size":sz});
-			$(this).text(player_before_change);
-			ck=false; 
-		      };    
-			         });
-});
-
-
-/*remove these variables*/
+/*variables*/
 var ck;
-var sz;
-var player_before_change;
+
 
 
 /*main function to show additional data and snackbar*/
@@ -117,28 +87,24 @@ x = "start";
 
 	if(fnd=="Not Found"){$("#lastspan").attr("id","");return;}else
 			
-	{$("#snackbar").text(club);
+	{
 			
+		$("#lastspan").text(club);
 
-	$("#lastspan").text(club);
+		new_sz = Math.round(((parseInt(sz) * 100)*1.5)/100);
 
-		
-	new_sz = Math.round(((parseInt(sz) * 100)*1.5)/100);
+		new_sz = new_sz.toString() + "px";
 
-	new_sz = new_sz.toString() + "px";
+		$("#lastspan").css("font-size",new_sz);
 
-	$("#lastspan").css("font-size",new_sz);
+		ck = true;
 
-
-	ck = true;
-
-			/*$(this).data("click",true);*/
-			
-    			showsnackbar();};	
+		/*$("#snackbar").text(club);*/		
+    		
+		/* showsnackbar();*/
+	
+		};	/* end of else fnd */
 					
-		/*;}; end if player length*/
-
-
 	
 	}); /* end of on click */
 					
@@ -155,10 +121,8 @@ function getarray(){
 			
 	} 
 	else 
-		{alert('ERROR - Not stored in local storage');}
+		{/*may add code to prevent funciton above from running if not found in storage*/;}
 
-    /*add the snackbar division*/
-	$("<div/>",{"id" : "snackbar"}).prependTo("body");
 
 	;}
 
@@ -216,11 +180,15 @@ $(document).ready(function(){
     		player_array.push( $(elem).text());
 		});
 		
-		
 		localStorage.setItem("p_array", JSON.stringify(player_array));
 
-		alert("array stored");
+		/* show the snackbar */		
+		$("<div/>",{"id" : "snackbar"}).prependTo("body")
 
+		$("#snackbar").text("Click player on Competition sheets to show/hide detail");		
+    		var x = document.getElementById("snackbar")
+        	x.className = "show";
+        	setTimeout(function(){ x.className = x.className.replace("show", ""); }, 4000);
 		
 ;})
 
