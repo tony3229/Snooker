@@ -6,7 +6,8 @@
 /*variables*/
 var ck;
 
-
+var bc;
+var fc;
 
 /*main function to show additional data and snackbar*/
 $(document).ready(function(){
@@ -24,9 +25,9 @@ $(function() {
 		/* by taking the info from the store attached to the element*/
 		
 		/* if last action was a matched click then return that cell to its original */
-		/* if the new click is the same cell as the last click then exit are resetting the contents */
+		/* if the new click is the same cell as the last click then exit and reset the contents */
 		/* if its not thee same then reset the contents and continue as if it was a new click */
-x = "start";
+
 		if(ck){
 			if($(this).find("span").attr("id")=="lastspan")
 			
@@ -36,35 +37,29 @@ x = "start";
 				
 		;};/*end if ck*/
 
-	
-
 
 	/* store data from the clicked td under the element*/
 	player = $(this).text();
 	
-	/*$(this).attr("id","last");*/
-	
-
-	/*SEEMS THAT SPAN IS LOST WHEN THE ID IS CHANGED
-	
-	/*sz = $("#last").find("span").css("font-size");*/
-	
+	$(this).attr("id","last");
 	$(this).find("span").attr("id","lastspan");
 
+	
 	sz = $("#lastspan").css("font-size");
-
-
+	
+	bc = $(this).css("background-color");
+	
+	fc = $(this).css("color");
 	
 	$("#lastspan").data("name",player);
 	$("#lastspan").data("size",sz);
-	
+	$("#lastspan").data("background",bc);
+	$("#lastspan").data("fontcolor",fc);
 
-
-	if (player?.trim().length == 0) {$("#lastspan").attr("id","");return;};
+	if (player?.trim().length == 0) {$("#lastspan").attr("id","old_span");$("#last").attr("id","old_td");;return;};
 	
 	fnd = "Not Found";
 			
-
 	/*remove new line introduced when getting variable from a table*/
 	player = player. replace(/(\r\n|\n|\r)/gm,""); 
 	/* remove double white space*/
@@ -85,17 +80,19 @@ x = "start";
 				};
 	*/		
 
-	if(fnd=="Not Found"){$("#lastspan").attr("id","");return;}else
+	if(fnd=="Not Found"){$("#lastspan").attr("id","old_span");$("#last").attr("id","old_td");return;}else
 			
 	{
 			
 		$("#lastspan").text(club);
 
-		new_sz = Math.round(((parseInt(sz) * 100)*1.5)/100);
+		new_sz = Math.round(((parseInt(sz) * 100)*1.2)/100);
 
 		new_sz = new_sz.toString() + "px";
 
 		$("#lastspan").css("font-size",new_sz);
+		$("#lastspan").css("color","rgb(255,255,255)"  );
+		$("#last").css("background-color","rgb(0,0,0)"  );
 
 		ck = true;
 
@@ -130,10 +127,17 @@ function getarray(){
 
 function reset_to_original(){ 
 				
-				$("#lastspan").css({"font-size":sz,"font-family":"arial"});
+				old_sz = $("#lastspan").data("size");
+				old_bc = $("#lastspan").data("background");
+				old_fc = $("#lastspan").data("fontcolor");
+
+
+				$("#last").css({"background-color":old_bc});
+				
+				$("#lastspan").css({"font-size":old_sz,"font-family":"arial","color":old_fc});
 				$("#lastspan").text($("#lastspan").data("name"));
-				/*$("#lastspan").data("click",false);*/
-				$("#lastspan").attr("id","old");
+				$("#last").attr("id","old_td");
+				$("#lastspan").attr("id","old_span");
 				
 			};
 
