@@ -9,6 +9,8 @@ var ck;
 var bc;
 var fc;
 
+
+
 /*main function to show additional data and snackbar*/
 $(document).ready(function(){
 
@@ -70,10 +72,26 @@ $(function() {
 
 	/* remove the handicap and ^ and * so it be used to find in the array*/	
 	remove_hcap();
-
-	/* look for the adjusted player( extra characters removed) in the array*/ 		
-	for(i=0;i<ls.length;i++){if(ls[i].includes(player)){club= ls[i];fnd = "Found";i=ls.length;};};	
+	
 			
+	  for(i=0;i<ls2.length;i++)  {
+			
+			
+			array_player = ls2[i][0];
+			array_player = array_player. replace(/(\r\n|\n|\r)/gm,""); /*remove new line introduced when getting variable from a table*/
+			array_player = array_player.replace(/\s+/g," "); /* remove double white space*/
+			array_player = array_player.trim();
+			
+			/*alert("("+array_player+")"+ array_player.length+" - " + player + player.length);*/
+			if(array_player ==player)     
+						{
+							club = ls2[i][1];
+							telno = ls2[i][2]
+							fnd = "Found";
+							i=ls2.length;	
+						}
+					;};
+
 	/*if(doubles_flag ==true){
 				
 	for(i=0;i<ls.length;i++){if(ls[i].includes(player2)){club= club + " / " + ls[i];fnd = "Found";i=ls.length;};};
@@ -84,7 +102,7 @@ $(function() {
 			
 	{
 			
-		$("#lastspan").text(club);
+		$("#lastspan").html(player+"<br>"+club+"<br>"+telno);
 
 		new_sz = Math.round(((parseInt(sz) * 100)*1.2)/100);
 
@@ -109,19 +127,7 @@ $(function() {
 }); /* end of function*/
 }); /* end of doc ready*/
 
-function getarray(){
 
-	if ("p_array" in localStorage) 
-		{const lstore = localStorage.getItem("p_array");	
-			 ls = JSON.parse(lstore);
-			
-			
-	} 
-	else 
-		{/*may add code to prevent funciton above from running if not found in storage*/;}
-
-
-	;}
 
 
 
@@ -164,7 +170,6 @@ function remove_hcap(){
 	};
 	player=player.replace("^","").trim();player=player.replace("*","").trim();
 	
-	
 	if(doubles_flag ==true){
 		if(player2.includes("(")){pos = player2.indexOf("(");
 		player2 = player2.slice(0,pos).trim();
@@ -174,17 +179,52 @@ function remove_hcap(){
 
 };
 
+
+
+
 /* create an array of players along with their clubs and save in local storage*/
 
+var sub_str
+
 function create_array(){
+
 $(document).ready(function(){
 
-		var player_array = [];
-		$('li').each(function(i, elem) {
-    		player_array.push( $(elem).text());
+		
+		
+		
+
+		var player_array2 = [];
+		$('li').each(function(e, elem) {
+		
+			sub_str= $(elem).text();
+		
+			var i = 0; 
+			var st3 = [];
+			while (sub_str.includes("-")){ 	
+				pos=sub_str.indexOf("-");
+				st1 = sub_str.slice(0,pos);
+				sub_str = sub_str.slice(pos+1);
+	
+				st3 [i] = st1;
+
+				i++; 
+				} 
+
+			
+			player_array2 [e] =  [st3 [0] , st3 [1] , st3 [2]];
+		
+			/*player_array2 [e] = ["aaa","bbbb","cccc"];*/
+		
+
 		});
 		
-		localStorage.setItem("p_array", JSON.stringify(player_array));
+		localStorage.setItem("p_array2", JSON.stringify(player_array2));
+
+			/*check lstore
+			const lstore2 = localStorage.getItem("p_array2");	
+			ls2 = JSON.parse(lstore2);
+			alert(ls2[2][0]);*/
 
 		/* show the snackbar */		
 		$("<div/>",{"id" : "snackbar"}).prependTo("body")
@@ -192,8 +232,58 @@ $(document).ready(function(){
 		$("#snackbar").text("Click player on Competition sheets to show/hide detail");		
     		var x = document.getElementById("snackbar")
         	x.className = "show";
-        	setTimeout(function(){ x.className = x.className.replace("show", ""); }, 4000);
+        	setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 		
-;})
+;})  
 
 }
+
+
+function getarray(){
+
+	if ("p_array" in localStorage) 
+		{const lstore = localStorage.getItem("p_array");	
+			 ls = JSON.parse(lstore);
+			
+			
+	} 
+	else 
+		{/*may add code to prevent funciton above from running if not found in storage*/;}
+
+
+	const lstore2 = localStorage.getItem("p_array2");	
+			 ls2 = JSON.parse(lstore2);
+
+		
+
+
+
+
+
+/*localStorage.removeItem("p_array2");*/
+
+	;}
+
+function create_arraytest(){
+
+$(document).ready(function(){
+
+		var player_array = [];
+		
+
+		player_array = ["a","b"];
+		
+		localStorage.setItem("p_array", JSON.stringify(player_array));
+		
+		const lstore = localStorage.getItem("p_array");	
+			 ls = JSON.parse(lstore);
+alert(ls [0][0]);
+		
+		
+;})  
+
+}
+
+
+
+/* */
