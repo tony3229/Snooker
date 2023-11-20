@@ -77,12 +77,9 @@ $(function() {
 	  for(i=0;i<ls2.length;i++)  {
 			
 			
-			array_player = ls2[i][0];
-			array_player = array_player. replace(/(\r\n|\n|\r)/gm,""); /*remove new line introduced when getting variable from a table*/
-			array_player = array_player.replace(/\s+/g," "); /* remove double white space*/
-			array_player = array_player.trim();
+			array_player = ls2[i][0].trim();
 			
-			/*alert("("+array_player+")"+ array_player.length+" - " + player + player.length);*/
+			
 			if(array_player ==player)     
 						{
 							club = ls2[i][1];
@@ -92,7 +89,7 @@ $(function() {
 						}
 					;};
 
-	/*if(doubles_flag ==true){
+	/* would need a re-write ?? if(doubles_flag ==true){
 				
 	for(i=0;i<ls.length;i++){if(ls[i].includes(player2)){club= club + " / " + ls[i];fnd = "Found";i=ls.length;};};
 				};
@@ -190,14 +187,15 @@ function create_array(){
 
 $(document).ready(function(){
 
-		
-		
-		
-
 		var player_array2 = [];
 		$('li').each(function(e, elem) {
 		
 			sub_str= $(elem).text();
+			/*remove new line introduced when getting variable from a table*/
+			sub_str = sub_str. replace(/(\r\n|\n|\r)/gm,""); 
+			/* remove double white space*/
+			sub_str = sub_str.replace(/\s+/g," "); 
+			aub_str = sub_str.trim();
 		
 			var i = 0; 
 			var st3 = [];
@@ -211,7 +209,7 @@ $(document).ready(function(){
 				i++; 
 				} 
 
-			
+
 			player_array2 [e] =  [st3 [0] , st3 [1] , st3 [2]];
 		
 			/*player_array2 [e] = ["aaa","bbbb","cccc"];*/
@@ -255,6 +253,7 @@ function getarray(){
 			 ls2 = JSON.parse(lstore2);
 
 		
+
 
 
 
