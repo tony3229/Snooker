@@ -1,8 +1,9 @@
 
 <!DOCTYPE html>
 <html>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+ <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
 <body>
 
 <div id="demo">
@@ -12,12 +13,26 @@
 
 <script>
 function loadDoc() {
-  var xhttp = new XMLHttpRequest();
+ /* var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("demo").innerHTML = this.responseText+"<br>";
+     document.getElementById("demo").innerHTML = this.responseText;
     }
-  };
+  };*/
+
+ var xhttp, xmlDoc, txt, x, i;
+xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+  xmlDoc = this.responseXML;
+  txt = "";
+  x = xmlDoc.getElementsByTagName("Surname");
+  for (i = 0; i < x.length; i++) {
+    txt = txt + x[i].childNodes[0].nodeValue + "<br>";
+  }
+  document.getElementById("demo").innerHTML = txt;
+  }
+};
   xhttp.open("GET", "xml data.xml", true);
   xhttp.send();
 }
