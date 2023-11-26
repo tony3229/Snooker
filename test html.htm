@@ -4,16 +4,16 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object 3</h1>
+<h1>The XMLHttpRequest Object 4</h1>
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
 
 <script>
-function loadDoc() {
+function loadDoc() {alert("run");
  
  xmlDoc = xhttp.responseXML;
 txt = "";
-x = xmlDoc.getElementsByTagName("Christian");
+x = xmlDoc.getElementsByTagName("Club");
 for (i = 0; i < x.length; i++) {
   txt += x[i].childNodes[0].nodeValue + "<br>";
   }
