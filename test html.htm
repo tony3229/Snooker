@@ -26,7 +26,7 @@ xhttp.onreadystatechange = function() {
 if (this.readyState == 4 && this.status == 200) {
   xmlDoc = this.responseXML;
  
- alert("x" + xmlDoc);
+ alert("x" + xmlDoc.childnodes[0].nodeValue);
  txt =  "";
   sn = xmlDoc.getElementsByTagName("Surname");
   cn= xmlDoc.getElementsByTagName("Christian");
