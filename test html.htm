@@ -4,21 +4,23 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object 2</h1>
+<h1>The XMLHttpRequest Object 3</h1>
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
 
 <script>
 function loadDoc() {
-  xmlDoc = xhttp.responseXML;
+ 
+ xmlDoc = xhttp.responseXML;
 txt = "";
-x = xmlDoc.getElementsByTagName("ARTIST");
+x = xmlDoc.getElementsByTagName("Player");
 for (i = 0; i < x.length; i++) {
   txt += x[i].childNodes[0].nodeValue + "<br>";
   }
 document.getElementById("demo").innerHTML = txt;
-xhttp.open("GET", "cd_catalog.xml", true);
+xhttp.open("GET", "xml data.xml", true);
 xhttp.send();
+
 }
 </script>
 
