@@ -4,32 +4,24 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object</h1>
+<h1>The XMLHttpRequest Object 1</h1>
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
 
 <script>
+<script>
 function loadDoc() {
- 
-xhttp.onreadystatechange = function() {alert(this.readyState + " = " + this.status);
-  if (this.readyState == 4 && this.status == 200) {
-    document.getElementById("demo").innerHTML = this.responseText;
-  }
-};
-xhttp.open("GET", "xml data.txt", true);
-xhttp.send();
-
-/*
-xmlDoc = xhttp.responseXML;
-txt = "";
-x = xmlDoc.getElementsByTagName("Player");
-for (i = 0; i < x.length; i++) {
-  txt += x[i].childNodes[0].nodeValue + "<br>";
-  }
-document.getElementById("demo").innerHTML = txt;
-xhttp.open("GET", "xml data.xml", true);
-xhttp.send();*/
-
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {alert(this.readyState +this.status);
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "Test Text.txt", true);
+  xhttp.send();
+}
+</script>
 }
 </script>
 
