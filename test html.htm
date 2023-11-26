@@ -10,7 +10,17 @@
 
 <script>
 function loadDoc() {
- xmlDoc = xhttp.responseXML;
+ 
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo").innerHTML = this.responseText;
+  }
+};
+xhttp.open("GET", "ajax_info.txt", true);
+xhttp.send();
+
+/*
+xmlDoc = xhttp.responseXML;
 txt = "";
 x = xmlDoc.getElementsByTagName("Player");
 for (i = 0; i < x.length; i++) {
@@ -18,7 +28,8 @@ for (i = 0; i < x.length; i++) {
   }
 document.getElementById("demo").innerHTML = txt;
 xhttp.open("GET", "xml data.xml", true);
-xhttp.send();
+xhttp.send();*/
+
 }
 </script>
 
