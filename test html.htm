@@ -19,27 +19,29 @@ function loadDoc() {
      document.getElementById("demo").innerHTML = this.responseText;
     }
   };*/
-
+$(document).ready(function(){
+//the variable to be appended here
+$("#demo").append("<ul></ul>");
+});
 $.ajax({
-             type: "GET",
-             url: "xml data 2.xml",
-             dataType: "xml",
-	
-             success: function(xml) {alert("here");
-                 $(xml).find('ID').each(function(){
-                     var id_text = $(this).text();
-			 alert("id" + id_text);
-                     var name_text = $(this).find('Surname').text();
-alert("test " + name_text);
+type: "GET",
+url: "xml data 2.xml",
+dataType: "xml",
+success: function(xml) {
+}
+$(xml).find('ID').each(function(){
+var Titles = $(this).find('Surname').text();
+var Manufacturers = $(this).find('Club').text();
+$("<li></li>").html(Titles + "-" + Manufacturers).appendTo("#Autom ul");
+});
+error: function() {
+alert("The XML File could not be processed correctly.");
+}
+});
 
-                    /* $('<li></li>')
-                         .html(name_text + ' (' + id_text + ')')
-                         .appendTo('#update-target ol');
-                	*/
-			 }); //close each(
-				     else{alert("fail");
-             }
-         }); //close $.ajax(
+
+
+                    
 
 /* made some changes and now not working?
  var xhttp, xmlDoc, txt, x, i;
