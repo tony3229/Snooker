@@ -23,7 +23,7 @@ function loadDoc() {
 		url: "xml data 2.xml",
 		dataType: "xml",
 		success: function(xml) {alert("found");
-		$(xml).find('ID').each(function(){    alert($(thtis).textL());});	
+		$(xml).find('ID').each(function(){    alert($(this).textL());});	
  //remainder of the code
 					}    //end of sucess
 	});//end of ajax                  
