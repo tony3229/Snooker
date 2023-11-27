@@ -24,7 +24,7 @@ function loadDoc() {
 		dataType: "xml",
 		success: function(xml) {
 		 $(xml).find('ID').each(function(){  
-			 var id = $(this).parent.text();
+			 var id = $(this).parent().text();
 			 var sn = $(this).find('Surname').text();  
 			 var cn = $(this).find('Christian').text();
 			 
