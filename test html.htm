@@ -13,32 +13,27 @@
 
 <script>
 function loadDoc() {
- /* var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("demo").innerHTML = this.responseText;
-    }
-  };*/
+ 
 $(document).ready(function(){
 //the variable to be appended here
-$("#demo").append("<ul></ul>");
+$("#demo").append("<ul>TEST</ul>");
 });
-$.ajax({
-type: "GET",
-url: "xml data 2.xml",
-dataType: "xml",
-success: function(xml) {
-}
-$(xml).find('ID').each(function(){
-var Titles = $(this).find('Surname').text();
-var Manufacturers = $(this).find('Club').text();
-$("<li></li>").html(Titles + "-" + Manufacturers).appendTo("#Autom ul");
-});
-error: function() {
-alert("The XML File could not be processed correctly.");
-}
-});
+	$.ajax({
+		type: "GET",
+		url: "xml data 2.xml",
+		dataType: "xml",
+		success: function(xml) {
 
+				$(xml).find('ID').each(function(){
+				var Titles = $(this).find('Surname').text();
+				var Manufacturers = $(this).find('Club').text();
+				$("<li></li>").html(Titles + "-" + Manufacturers).appendTo("#Autom ul");
+							});
+		error: function() {
+				alert("The XML File could not be processed correctly.");
+				}
+		});
+}
 
 
                     
