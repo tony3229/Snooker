@@ -24,6 +24,7 @@ $.ajax({
              type: "GET",
              url: "xml data 2.xml",
              dataType: "xml",
+	
              success: function(xml) {alert("here");
                  $(xml).find('ID').each(function(){
                      var id_text = $(this).text();
@@ -36,6 +37,7 @@ alert("test " + name_text);
                          .appendTo('#update-target ol');
                 	*/
 			 }); //close each(
+				     else{alert("fail");
              }
          }); //close $.ajax(
 
