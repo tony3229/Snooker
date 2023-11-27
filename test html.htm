@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object4</h1>
+<h1>The XMLHttpRequest Object1</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -22,9 +22,9 @@ function loadDoc() {
 		type: "GET",
 		url: "xml data 3.xml",
 		dataType: "xml",
-		success: function(xml) {alert("found");
+		success: function(xml) {
 		 $(xml).find('ID').each(function(){  
-			 var id = $(this).attr("ID")
+			 var id = $(this).text();
 			 var sn = $(this).find('Surname').text();  
 			 var cn = $(this).find('Christian').text();
 			 
