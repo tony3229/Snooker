@@ -25,11 +25,11 @@ type: "GET",
 url: "xml data 2.xml",
 dataType: "xml",
 success: function(xml) {alert("found");
-$(xml).find('ID').each(function(){
-var Titles = $(this).find('Surname').text();
-var Manufacturers = $(this).find('Club').text();
-$("<li></li>").html(Titles + "-" + Manufacturers).appendTo("#test);alert("tony");
-});
+			$(xml).find('ID').each(function(){alert("ok");
+			var Titles = $(this).find('Surname').text();
+			var Manufacturers = $(this).find('Club').text();
+			$("<li></li>").html(Titles + "-" + Manufacturers).appendTo("#test);alert("tony");
+							});
 
 			
  //remainder of the code
