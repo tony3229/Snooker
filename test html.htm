@@ -22,9 +22,8 @@ function loadDoc() {
 		type: "GET",
 		url: "xml data 3.xml",
 		dataType: "xml",
-		success: function(xml) {
-		 $(xml).find('ID').each(function(){  
-			 var id = $(this).val();
+		success: function(xml) {$(xml).find('ID').each(function(){  
+			 var id = $(this).parent().val();
 			 var sn = $(this).find('Surname').text();  
 			 var cn = $(this).find('Christian').text();
 			 
