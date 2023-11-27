@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
  <head>
@@ -7,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object 8</h1>
+<h1>The XMLHttpRequest Object 5</h1>
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
 
@@ -20,21 +19,34 @@ function loadDoc() {
     }
   };*/
 
- var xhttp, xmlDoc, txt, sn,cn,cl,te, i;
+$.ajax({
+             type: "GET",
+             url: "xml data 2.xml",
+             dataType: "xml",
+             success: function(xml) {
+                 $(xml).find('label').each(function(){
+                     var id_text = $(this).attr('ID')
+                     var name_text = $(this).find('Surname').text()
+alert("test " + name_text);
+
+                    /* $('<li></li>')
+                         .html(name_text + ' (' + id_text + ')')
+                         .appendTo('#update-target ol');
+                	*/
+			 }); //close each(
+             }
+         }); //close $.ajax(
+
+/* made some changes and now not working?
+ var xhttp, xmlDoc, txt, x, i;
 xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
 if (this.readyState == 4 && this.status == 200) {
   xmlDoc = this.responseXML;
- 
- alert($(xmlDoc).find('Surname').text()+ " - ");
- txt =  "";
-  sn = xmlDoc.getElementsByTagName("Surname");
-  cn= xmlDoc.getElementsByTagName("Christian");
-  cl = xmlDoc.getElementsByTagName("Club");
-  te = xmlDoc.getElementsByTagName("Team");
- alert(cn.length);
-  for (i = 0; i < cn.length; i++) {
-    txt = txt + cn[i].childNodes[0].nodeValue + "<br>";
+  txt = "";
+  x = xmlDoc.getElementsByTagName("Surname");
+  for (i = 0; i < x.length; i++) {
+    txt = txt + x[i].childNodes[0].nodeValue + "<br>";
   }
   document.getElementById("demo").innerHTML = txt;
   }
@@ -42,6 +54,7 @@ if (this.readyState == 4 && this.status == 200) {
   xhttp.open("GET", "xml data.xml", true);
   xhttp.send();
 }
+*/
 </script>
 
 </body>
