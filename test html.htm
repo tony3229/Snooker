@@ -20,7 +20,14 @@ $(document).ready(function(){
 				alert("dded");
 				});
 	
-
+$.ajax({
+type: "GET",
+url: "cars.xml",
+dataType: "xml",
+success: function(xml) {alert("found");
+ //remainder of the code
+}
+});
 
                     
 
