@@ -29,13 +29,13 @@ function loadDoc() {
 			 var sn = $(this).find('Surname').text();  
 			 var cn = $(this).find('Christian').text();
 			$("<li></li>").html(id + " - " + cn + " - " + sn).appendTo("#test");						      
-			ar[r] = id;
+			ar [r] =  [id [0] , sn [1] , cn [2]] ;
 			r++;
-			
+		
 			 });	// end each
  //remainder of the code
-				alert("t "+ ar[0]);	
-					}    //end of sucess
+				alert("t "+ ar[0]+ar[1]+ar[2]);	
+					}    /end of sucess
 	});//end of ajax                  
 
 }// end loadDoc
