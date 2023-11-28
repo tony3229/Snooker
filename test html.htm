@@ -6,9 +6,9 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object12</h1>
+<h1>The XMLHttpRequest Object13</h1>
 	
-<button type="button" onclick="loadDoc()">Change Content</button>
+<button type="button" onclick="loadDoc()>Change Content</button>
 </div>
 <div id = "test">
 </div>
@@ -29,16 +29,11 @@ function loadDoc() {
 				var cn = $(this).find('Christian').text();
 				var sn = $(this).find('Surname').text();
 				$("<li></li>").html(cn + ", " + sn).appendTo("#test");
-				var ar[0] = [cn,sn];
+				ar[0] = [cn,sn];
 				
 					});//end each
 				}// end sucess
-localStorage.setItem("p_array2", JSON.stringify(ar));
 
-			/*check lstore*/
-			const lstore2 = localStorage.getItem("p_array2");	
-			ls2 = JSON.parse(lstore2);
-			alert(ls2[2][0]);
 	
 	});     //end ready
 
