@@ -19,7 +19,7 @@ function loadDoc() {
 				alert("added");
 				});
 	var ar [];
-	var r = 0, c= 0;
+	var r = 0;
 	
 	$.ajax({
 		type: "GET",
@@ -30,12 +30,12 @@ function loadDoc() {
 			 var sn = $(this).find('Surname').text();  
 			 var cn = $(this).find('Christian').text();
 			$("<li></li>").html(id + " - " + cn + " - " + sn).appendTo("#test");						      
-			ar[r][c] = id;
+			ar[r] id;
 			r++;
 			
 			 });	// end each
  //remainder of the code
-					alert("t " + ar[0][0]);
+					alert("t " + ar[0]);
 					}    //end of sucess
 	});//end of ajax                  
 
