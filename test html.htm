@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object3</h1>
+<h1>The XMLHttpRequest Object4</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -30,13 +30,16 @@ function loadDoc() {
 		dataType: "xml",
 		success: function(xml) {alert("a");
 			$(xml).find('player').each(function(){alert("b");
-				var cn = $(this).find('Christian').text();
-				var sn = $(this).find('Surname').text();
+				var id = $(this).find('ID').text();
+				var cn = $(this).find('Christian').text();			      
+				var sn = $(this).find('Surname').text();			      
+				var te = $(this).find('Team').text();
+				var cl = $(this).find('Club').text();			      
 				$("<li></li>").html(cn + ", " + sn).appendTo("#test");
 					// variable will carry into here
-							      parray[i]= [cn,sn];
+							      parray[i]= [id,cn,sn,te,cl];
 							      
-							      alert(parray[i][1]);
+							      alert(parray[i][0]  +  parray[i][1]  +parray[i][2]  +parray[i][3]  + parray[i][4]   );
 							      i++;
 							      alert("c");
 					});//end each
