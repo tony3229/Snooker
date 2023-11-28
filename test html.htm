@@ -18,7 +18,25 @@ function loadDoc() {
 				$("#test").append("<ul>TEST</ul>");
 				alert("added");
 				});
-	       
+	$.ajax({
+		type: "GET",
+		url: "xml data 3.xml",
+		dataType: "xml",
+		success: function(xml) {alert("found");
+		 $(xml).find('Player').each(function(){  
+			 var sn = $(this).find('Surname').text();  
+			 var cn = $(this).find('Christian').text();
+			
+			alert(sn+cn);
+						});// end of each	
+
+					}    //end of sucess
+	});//end of ajax                  
 
 }// end loadDoc
+
+
+</script>
+
+</body>
 </html>
