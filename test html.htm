@@ -23,10 +23,10 @@ function loadDoc() {
 		url: "xml data 3.xml",
 		dataType: "xml",
 		success: function(xml) {alert("found");
-		 $(xml).find('ID').each(function(){  
+		 $(xml).find('Player').each(function(){  
 			 var sn = $(this).find('Surname').text();  
 			 var cn = $(this).find('Christian').text();
-			 $("<li></li>").html(Titles + "-" + Manufacturers).appendTo("#Autom ul");
+			 $("<li></li>").html(sn + "-" + cn).appendTo("#test");
 			
 						});// end of each	
 
