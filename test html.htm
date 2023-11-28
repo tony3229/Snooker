@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object1</h1>
+<h1>The XMLHttpRequest Object2</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -22,16 +22,21 @@ function loadDoc() {
 		type: "GET",
 		url: "xml data 3.xml",
 		dataType: "xml",
-		success: function(xml) {alert("found");
-		 $(xml).find('Player').each(function(){  
-			 var sn = $(this).find('Surname').text();  
-			 var cn = $(this).find('Christian').text();
-			
-			alert(sn+cn);
-						});// end of each	
+		success: function(xml) {
+			$(xml).find('player').each(function(){
+				var cn = $(this).find('Christian').text();
+				var sn = $(this).find('Surname').text();
+			$("<li></li>").html(cn + ", " + sn).appendTo("#test");
+					alert(cn+sn);
+});
 
-					}    //end of sucess
-	});//end of ajax                  
+			
+				}// end sucess
+//other code
+error: function() {
+alert("The XML File could not be processed correctly.");
+}
+});     
 
 }// end loadDoc
 
