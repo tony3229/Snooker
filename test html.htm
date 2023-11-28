@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object0</h1>
+<h1>The XMLHttpRequest Object2</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -34,9 +34,9 @@ function loadDoc() {
 				var sn = $(this).find('Surname').text();
 				$("<li></li>").html(cn + ", " + sn).appendTo("#test");
 					// variable will carry into here
-							      parray[i]= sn;
+							      parray[i]= [123,456];
 							      
-							      alert(parray[i]);
+							      alert(parray[i][1]);
 							      i++;
 							      alert("c");
 					});//end each
