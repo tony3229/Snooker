@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object9</h1>
+<h1>The XMLHttpRequest Object1</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -17,10 +17,12 @@ function loadDoc() {
 	$(document).ready(function(){
 				$("#test").append("<ul>TEST</ul>");
 				alert("added");
+				var player_array = [];
+				player_array[0] = [aa,bb];
+				alert(player_array[0][0]);
 				});
-	var player_array = [];
-	player_array[0] = [aa,bb];
-	alert(player_array[0][0]);
+	alert("h");
+	
 /*
 	$.ajax({
 		type: "GET",
