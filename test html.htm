@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object7</h1>
+<h1>The XMLHttpRequest Object8</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -20,7 +20,7 @@ function loadDoc() {
 				
 				});
 	alert("h");
-				 var parray="g";
+				 var parray=[];
 				
 				/*playerarray[0]=[123,456];
 				alert(playerarray [0][0]);*/			
@@ -33,7 +33,10 @@ function loadDoc() {
 				var cn = $(this).find('Christian').text();
 				var sn = $(this).find('Surname').text();
 				$("<li></li>").html(cn + ", " + sn).appendTo("#test");
-					alert(parray);
+					// variable will carry into here
+							      parray[0]= "X";
+							      
+							      alert(parray[0]);
 							      
 							      alert("c");
 					});//end each
