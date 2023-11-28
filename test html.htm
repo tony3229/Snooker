@@ -22,7 +22,7 @@ function loadDoc() {
 		type: "GET",
 		url: "xml data 3.xml",
 		dataType: "xml",
-		success: function(xml) {$(xml).find('Club').each(function(){  alert("h");
+		success: function(xml) {$(xml).find('player').each(function(){  alert("h");
 			 var id = $(this).find('ID').text();
 			 var sn = $(this).find('Surname').text();  
 			 var cn = $(this).find('Christian').text();
