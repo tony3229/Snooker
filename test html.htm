@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object3</h1>
+<h1>The XMLHttpRequest Object4</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -21,8 +21,8 @@ function loadDoc() {
 				});
 	alert("h");
 				var playerarray=[];
-				playerarray[0]=[123,456];
-				alert(playerarray [0][0]);			
+				/*playerarray[0]=[123,456];
+				alert(playerarray [0][0]);*/			
 	$.ajax({
 		type: "GET",
 		url: "xml data 3.xml",
@@ -32,12 +32,12 @@ function loadDoc() {
 				var cn = $(this).find('Christian').text();
 				var sn = $(this).find('Surname').text();
 				$("<li></li>").html(cn + ", " + sn).appendTo("#test");
-			
+			playerarray[0]=[123,456];
 					});//end each
 				}// end sucess
 				
 	});     //end ajax
-alert("test");
+alert("test");alert(playerarray [0][0]);
 }// end loadDoc
 
 
