@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object2</h1>
+<h1>The XMLHttpRequest Object3</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -26,7 +26,8 @@ function loadDoc() {
 			 var id = $(this).find('ID').text();
 			 var sn = $(this).find('Surname').text();  
 			 var cn = $(this).find('Christian').text();
-			 alert(id + " - " + cn + " - " + sn);
+			$("<li></li>").html(id + " - " + cn + " - " + sn).appendTo("#test");						      
+			 
 			 });	// end each
  //remainder of the code
 					}    //end of sucess
