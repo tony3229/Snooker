@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object2</h1>
+<h1>The XMLHttpRequest Object4</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -18,7 +18,7 @@ function loadDoc() {
 				$("#test").append("<ul>TE</ul>");
 				alert("added");
 				});
-	var ar=[][];
+	var ar=[];
 	var r = 0;
 	$.ajax({
 		type: "GET",
@@ -29,12 +29,12 @@ function loadDoc() {
 			 var sn = $(this).find('Surname').text();  
 			 var cn = $(this).find('Christian').text();
 			$("<li></li>").html(id + " - " + cn + " - " + sn).appendTo("#test");						      
-			ar[r] [0]= id;
+			ar[r] = id;
 			r++;
 			
 			 });	// end each
  //remainder of the code
-				alert("t "+ ar[0][0]);	
+				alert("t "+ ar[0]);	
 					}    //end of sucess
 	});//end of ajax                  
 
