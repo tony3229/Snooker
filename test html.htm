@@ -27,12 +27,12 @@ function loadDoc() {
 		type: "GET",
 		url: "xml data 3.xml",
 		dataType: "xml",
-		success: function(xml) {alert("a");var playerarray[];
-			$(xml).find('player').each(function(){
+		success: function(xml) {alert("a");
+			$(xml).find('player').each(function(){alert("b");
 				var cn = $(this).find('Christian').text();
 				var sn = $(this).find('Surname').text();
 				$("<li></li>").html(cn + ", " + sn).appendTo("#test");
-			playerarray[0]=[123,456];alert("G");		
+		
 					});//end each
 				}// end sucess
 
