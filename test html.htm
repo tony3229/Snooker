@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object11</h1>
+<h1>The XMLHttpRequest Object12</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -33,7 +33,12 @@ function loadDoc() {
 				
 					});//end each
 				}// end sucess
+localStorage.setItem("p_array2", JSON.stringify(ar));
 
+			/*check lstore*/
+			const lstore2 = localStorage.getItem("p_array2");	
+			ls2 = JSON.parse(lstore2);
+			alert(ls2[2][0]);
 	
 	});     //end ready
 
