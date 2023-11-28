@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object 2</h1>
+<h1>The XMLHttpRequest Object 3</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -18,18 +18,7 @@ function loadDoc() {
 				$("#test").append("<ul>TEST</ul>");
 				alert("added");
 				});
-	$.ajax({
-		type: "GET",
-		url: "xml data 3.xml",
-		dataType: "xml",
-		success: function(xml) {alert("sucess");
-		 $(xml).find('Player').each(function(){  
-			 
-			alert("f");
-						});// end of each	
-
-					}    //end of sucess
-	});//end of ajax                  
+	       
 
 }// end loadDoc
 </html>
