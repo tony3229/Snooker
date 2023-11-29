@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>XML test 3</h1>
+<h1>XML test 4</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -53,8 +53,13 @@ function loadDoc() {
 							           i++;
 							      //alert("c");
 					});//end each
-				alert(parray[1][0]  +  parray[1][1]  +parray[1][2]  +parray[1][3]  + parray[1][4]   );
-							 
+				//alert(parray[1][0]  +  parray[1][1]  +parray[1][2]  +parray[1][3]  + parray[1][4]   );
+			localStorage.setItem("reg_p_array", JSON.stringify(parray));
+
+			/*check lstore*/
+			const lstore1 = localStorage.getItem("reg_p_array");	
+			ls1 = JSON.parse(lstore1);
+			alert(ls1[20][0]);				 
 		}// end sucess
 
 		
