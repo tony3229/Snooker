@@ -6,7 +6,7 @@
 <body>
 
 <div id="demo">
-<h1>XML test 6</h1>
+<h1>XML test 7</h1>
 	
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
@@ -59,8 +59,9 @@ function loadDoc() {
 			/*check lstore*/
 			const lstore1 = localStorage.getItem("reg_p_array");	
 			ls1 = JSON.parse(lstore1);
-			for(c=0;c<ls1[1].length;c++){
-			console.log(ls1[20][c]);};				 
+			for(i=0;i<ls1.length;i++){
+				for(c=0;c<ls1[1].length;c++){console.log(ls1[20][c]);};
+						};
 		}// end sucess
 
 		
