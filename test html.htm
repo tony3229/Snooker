@@ -28,18 +28,29 @@ function loadDoc() {
 		type: "GET",
 		url: "xml data 3.xml",
 		dataType: "xml",
-		success: function(xml) {alert("a");
-			$(xml).find('player').each(function(){alert("b");
-				var id = $(this).find('ID').text();
-				var cn = $(this).find('Christian').text();			      
-				var sn = $(this).find('Surname').text();			      
-				var te = $(this).find('Team').text();
-				var cl = $(this).find('Club').text();			      
+		success: function(xml) {
+			$(xml).find('player').each(function(){
+				var id = $(this).find('id').text();
+				var cn = $(this).find('christian').text();			      
+				var sn = $(this).find('surname').text();			      
+				var te = $(this).find('team').text();
+				var cl = $(this).find('club').text();	
+				var tel = $(this).find('tel').text();
+				var jw = $(this).find('jw').text();			      
+				var jg = $(this).find('jg').text();			      
+				var ssc = $(this).find('ssc').text();
+				var ssh = $(this).find('ssh').text();	
+				var sdc= $(this).find('sdc').text();	
+				var sdh = $(this).find('sdh').text();
+				var bsc = $(this).find('bsc').text();			      
+				var bsh = $(this).find('bsh').text();			      
+				var ch = $(this).find('changed').text();
+							      
 				$("<li></li>").html(cn + ", " + sn).appendTo("#test");
 					// variable will carry into here
 							      parray[i]= [id,cn,sn,te,cl];
 							      
-							      alert(parray[i][0]  +  parray[i][1]  +parray[i][2]  +parray[i][3]  + parray[i][4]   );
+							     // alert(parray[i][0]  +  parray[i][1]  +parray[i][2]  +parray[i][3]  + parray[i][4]   );
 							      i++;
 							      alert("c");
 					});//end each
