@@ -5,1020 +5,3168 @@
 <surname>Chichester</surname>
 <christian>Andrew</christian>
 <team>County Club</team>
-<club>County Club</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Andrew</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<club>(County Club)</club>
+<tel>07515 578260</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>101</id>
-<surname>Andrews</surname>
-<christian>Michael</christian>
-<team>Frank's</team>
-<club>Frank's</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Michael</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Cornecan</surname>
+<christian>Adrian</christian>
+<team>County Club</team>
+<club>(County Club)</club>
+<tel>-</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>102</id>
-<surname>Andrews</surname>
-<christian>Stephen</christian>
-<team>Frank's</team>
-<club>Frank's</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Stephen</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Gibbs</surname>
+<christian>Steven </christian>
+<team>County Club</team>
+<club>(County Club)</club>
+<tel>07535 055193</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>103</id>
-<surname>Chan</surname>
-<christian>Richard</christian>
-<team>Frank's</team>
-<club>Frank's</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Richard</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Jashek</surname>
+<christian>Roger</christian>
+<team>County Club</team>
+<club>(County Club)</club>
+<tel>07944 181237</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>104</id>
-<surname>Lampey</surname>
-<christian>Robert</christian>
-<team>Frank's</team>
-<club>Frank's</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Robert</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Mathew</surname>
+<christian>Kevin</christian>
+<team>County Club</team>
+<club>(County Club)</club>
+<tel>07771 825135</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>105</id>
-<surname>Smith</surname>
-<christian>Des</christian>
-<team>Frank's</team>
-<club>Frank's</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Des</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>McCarthy</surname>
+<christian>Brad</christian>
+<team>County Club</team>
+<club>(County Club)</club>
+<tel>-</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>106</id>
-<surname>Spinks</surname>
-<christian>John</christian>
-<team>Frank's</team>
-<club>Frank's</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>John</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Poulter</surname>
+<christian>Adrian</christian>
+<team>County Club</team>
+<club>(County Club)</club>
+<tel>07806 497794</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>Y</ssh>
+<sdc>-</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>107</id>
-<surname>Dimaio</surname>
-<christian>Rino</christian>
-<team>Goffs Oak A</team>
-<club>Goffs Oak</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Rino</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Smith</surname>
+<christian>Steve</christian>
+<team>County Club</team>
+<club>(County Club)</club>
+<tel>07515 587159</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>Y</ssh>
+<sdc>-</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>capt</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>108</id>
-<surname>Ebbs</surname>
-<christian>John</christian>
-<team>Goffs Oak A</team>
-<club>Goffs Oak</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>John</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Tagg</surname>
+<christian>Andrew</christian>
+<team>County Club</team>
+<club>(County Club)</club>
+<tel>07973 757342</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>109</id>
-<surname>Grainger</surname>
-<christian>Martin</christian>
-<team>Goffs Oak A</team>
-<club>Goffs Oak</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Martin</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Tagg</surname>
+<christian>Neil</christian>
+<team>County Club</team>
+<club>(County Club)</club>
+<tel>07973 757342</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>110</id>
-<surname>Colborne</surname>
-<christian>David</christian>
-<team>Haldens</team>
-<club>Halde</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>David</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Wastell</surname>
+<christian>Peter</christian>
+<team>County Club</team>
+<club>(County Club)</club>
+<tel>-</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>111</id>
-<surname>Hampton</surname>
-<christian>Stephen</christian>
-<team>Haldens</team>
-<club>Halde</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Stephen</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Andrews</surname>
+<christian>Michael</christian>
+<team>Frank's</team>
+<club>(Frank's)</club>
+<tel>07913 817822</tel>
+<jw>Y</jw>
+<jg>Y</jg>
+<ssc>Y</ssc>
+<ssh>Y</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>112</id>
-<surname>Shaw</surname>
-<christian>Benjamin</christian>
-<team>Haldens</team>
-<club>Halde</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Benjamin</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Andrews</surname>
+<christian>Stephen</christian>
+<team>Frank's</team>
+<club>(Frank's)</club>
+<tel>07504 981989</tel>
+<jw>Y</jw>
+<jg>Y</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>113</id>
-<surname>Pilborough</surname>
-<christian>Mark</christian>
-<team>Haldens A</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Mark</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Chan</surname>
+<christian>Richard</christian>
+<team>Frank's</team>
+<club>(Frank's)</club>
+<tel>07973 505025</tel>
+<jw>Y</jw>
+<jg>Y</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>114</id>
-<surname>Read</surname>
-<christian>Dave</christian>
-<team>Haldens A</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Dave</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Lampey</surname>
+<christian>Robert</christian>
+<team>Frank's</team>
+<club>(Frank's)</club>
+<tel>07931 474395</tel>
+<jw>Y</jw>
+<jg>Y</jg>
+<ssc>Y</ssc>
+<ssh>Y</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>115</id>
-<surname>Cartwright</surname>
-<christian>Bob</christian>
-<team>Haldens B</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Bob</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Reid</surname>
+<christian>Mathew</christian>
+<team>Frank's</team>
+<club>(Frank's)</club>
+<tel>07826 523233</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>116</id>
-<surname>Marchese</surname>
-<christian>Joe</christian>
-<team>Haldens B</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Joe</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Singh</surname>
+<christian>Pang</christian>
+<team>Frank's</team>
+<club>(Frank's)</club>
+<tel>-</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>117</id>
-<surname>O'Connor</surname>
-<christian>Paul</christian>
-<team>Haldens B</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Paul</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Smith</surname>
+<christian>Des</christian>
+<team>Frank's</team>
+<club>(Frank's)</club>
+<tel>07930 333847</tel>
+<jw>Y</jw>
+<jg>Y</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>118</id>
-<surname>O'Connor</surname>
-<christian>Rory</christian>
-<team>Haldens B</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Rory</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Smith</surname>
+<christian>Sid</christian>
+<team>Frank's</team>
+<club>(Frank's)</club>
+<tel>07989 597911</tel>
+<jw>-</jw>
+<jg>Y</jg>
+<ssc>Y</ssc>
+<ssh>Y</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>119</id>
-<surname>White</surname>
-<christian>Shayne</christian>
-<team>Haldens B</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Shayne</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Spinks</surname>
+<christian>John</christian>
+<team>Frank's</team>
+<club>(Frank's)</club>
+<tel>07874 654767</tel>
+<jw>Y</jw>
+<jg>Y</jg>
+<ssc>-</ssc>
+<ssh>Y</ssh>
+<sdc>-</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>capt</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>120</id>
-<surname>Clarke</surname>
-<christian>Andy</christian>
-<team>Haldens C</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Andy</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Taylor</surname>
+<christian>Richard</christian>
+<team>Frank's</team>
+<club>(Frank's)</club>
+<tel>07786 949997</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>121</id>
-<surname>Patel</surname>
-<christian>Hemant</christian>
-<team>Haldens C</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Hemant</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Wong</surname>
+<christian>Kit</christian>
+<team>Frank's</team>
+<club>(Frank's)</club>
+<tel>07427 658027</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>Y</ssh>
+<sdc>-</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>122</id>
-<surname>Pond</surname>
-<christian>Callum</christian>
-<team>Haldens C</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Callum</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Dew</surname>
+<christian>Alan</christian>
+<team>Goffs Oak A</team>
+<club>Goffs Oak </club>
+<tel>07895 640871</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>capt</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>123</id>
-<surname>Motekhasses</surname>
-<christian>Bijan</christian>
-<team>Haldens D</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Bijan</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Dimaio</surname>
+<christian>Rino</christian>
+<team>Goffs Oak A</team>
+<club>Goffs Oak </club>
+<tel>07939 343499</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>124</id>
-<surname>Somerfield</surname>
-<christian>Benjamin</christian>
-<team>Haldens F</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Benjamin</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Dyer</surname>
+<christian>Bobby</christian>
+<team>Goffs Oak A</team>
+<club>Goffs Oak </club>
+<tel>07743 807085</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>125</id>
-<surname>Alexander</surname>
-<christian>Adam</christian>
-<team>Haldens F</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Adam</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Ebbs</surname>
+<christian>John</christian>
+<team>Goffs Oak A</team>
+<club>Goffs Oak </club>
+<tel>07903 562376</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>126</id>
-<surname>Bunney</surname>
-<christian>David</christian>
-<team>Haldens F</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>David</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Grainger</surname>
+<christian>Martin</christian>
+<team>Goffs Oak A</team>
+<club>Goffs Oak </club>
+<tel>07900 888788</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>127</id>
-<surname>Harding</surname>
-<christian>Ricky</christian>
-<team>Haldens F</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Ricky</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Grant</surname>
+<christian>Paul</christian>
+<team>Goffs Oak A</team>
+<club>Goffs Oak </club>
+<tel>07876 113016</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>128</id>
-<surname>Merrifield</surname>
-<christian>Philip</christian>
-<team>Haldens F</team>
-<club>Haldens</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Philip</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Locke</surname>
+<christian>Mike</christian>
+<team>Goffs Oak A</team>
+<club>Goffs Oak </club>
+<tel>07961 340768</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>129</id>
-<surname>Deo</surname>
-<christian>Satnam</christian>
-<team>North Mymms A</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Satnam</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Needs</surname>
+<christian>Jamie</christian>
+<team>Goffs Oak A</team>
+<club>Goffs Oak </club>
+<tel>07881 505862</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>130</id>
-<surname>Elias</surname>
-<christian>Iyad</christian>
-<team>North Mymms A</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Iyad</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Peters</surname>
+<christian>Peter</christian>
+<team>Goffs Oak A</team>
+<club>Goffs Oak </club>
+<tel>07949 089499</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>131</id>
-<surname>Gibbs</surname>
-<christian>Steve</christian>
-<team>North Mymms A</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Steve</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Wilkins</surname>
+<christian>Dave</christian>
+<team>Goffs Oak A</team>
+<club>Goffs Oak </club>
+<tel>01992 426150</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>132</id>
-<surname>Miller</surname>
-<christian>Stephen</christian>
-<team>North Mymms A</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Stephen</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Alger</surname>
+<christian>Alan</christian>
+<team>Goffs Oak B</team>
+<club>Goffs Oak </club>
+<tel>07954 090542</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>133</id>
-<surname>Powell</surname>
-<christian>Rob</christian>
-<team>North Mymms A</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Rob</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Gander</surname>
+<christian>Paul</christian>
+<team>Goffs Oak B</team>
+<club>Goffs Oak </club>
+<tel>07808 156576</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>capt</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>134</id>
-<surname>Currie</surname>
-<christian>Steve</christian>
-<team>North Mymms B</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Steve</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Hannibal</surname>
+<christian>David</christian>
+<team>Goffs Oak B</team>
+<club>Goffs Oak </club>
+<tel>07919 410884</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>135</id>
-<surname>Hilborne</surname>
-<christian>Steve</christian>
-<team>North Mymms B</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Steve</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Hicks</surname>
+<christian>Chris</christian>
+<team>Goffs Oak B</team>
+<club>Goffs Oak </club>
+<tel>07971 965305</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>136</id>
-<surname>Lightfoot</surname>
-<christian>Neil</christian>
-<team>North Mymms B</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Neil</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Taylor</surname>
+<christian>Jamie</christian>
+<team>Goffs Oak B</team>
+<club>Goffs Oak </club>
+<tel>07735 305631</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>137</id>
-<surname>Sanders</surname>
-<christian>Ian</christian>
-<team>North Mymms B</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Ian</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Tilson</surname>
+<christian>Jem</christian>
+<team>Goffs Oak B</team>
+<club>Goffs Oak </club>
+<tel>07833 452548</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>138</id>
-<surname>Tehrani</surname>
-<christian>Ali</christian>
-<team>North Mymms B</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Ali</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Wilson</surname>
+<christian>John</christian>
+<team>Goffs Oak B</team>
+<club>Goffs Oak </club>
+<tel>01707 875762</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>139</id>
-<surname>Caulfield</surname>
-<christian>Sean</christian>
-<team>North Mymms C</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Sean</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Withers</surname>
+<christian>Graham</christian>
+<team>Goffs Oak B</team>
+<club>Goffs Oak </club>
+<tel>07757 387179</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>140</id>
-<surname>Doocey</surname>
-<christian>Liam</christian>
-<team>North Mymms C</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Liam</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Bonner</surname>
+<christian>Kevin</christian>
+<team>Haldens</team>
+<club>(Haldens)</club>
+<tel>07523 029076</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>141</id>
-<surname>Herdman</surname>
-<christian>Andy</christian>
-<team>North Mymms C</team>
-<club>North Mymms</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Andy</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Catlin</surname>
+<christian>Ted</christian>
+<team>Haldens</team>
+<club>(Haldens)</club>
+<tel>07530 899761</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>142</id>
-<surname>Chapman</surname>
-<christian>Bob</christian>
-<team>Welwyn A</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Bob</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Colborne</surname>
+<christian>David</christian>
+<team>Haldens</team>
+<club>(Haldens)</club>
+<tel>07494 321787</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>143</id>
-<surname>Chapman</surname>
-<christian>Sean</christian>
-<team>Welwyn A</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Sean</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Hampton</surname>
+<christian>Stephen</christian>
+<team>Haldens</team>
+<club>(Haldens)</club>
+<tel>07967 820177</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>capt</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>144</id>
-<surname>McCague</surname>
-<christian>Hugh</christian>
-<team>Welwyn A</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Hugh</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Nelson</surname>
+<christian>Matt</christian>
+<team>Haldens</team>
+<club>(Haldens)</club>
+<tel>07437 205858</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>145</id>
-<surname>Goldsmith</surname>
-<christian>Darren</christian>
-<team>Welwyn B</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Darren</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Myles</surname>
+<christian>Andrew</christian>
+<team>Haldens</team>
+<club>(Haldens)</club>
+<tel>07963 197588</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>146</id>
-<surname>Hodgson</surname>
-<christian>Nick</christian>
-<team>Welwyn B</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Nick</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Myles</surname>
+<christian>Kieran</christian>
+<team>Haldens</team>
+<club>(Haldens)</club>
+<tel>07947 701434</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>147</id>
-<surname>Kightley</surname>
-<christian>Oliver</christian>
-<team>Welwyn B</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Oliver</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Nash</surname>
+<christian>John</christian>
+<team>Haldens</team>
+<club>(Haldens)</club>
+<tel>07906 935879</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>148</id>
-<surname>Lund</surname>
-<christian>Simon</christian>
-<team>Welwyn B</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Simon</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Shaw</surname>
+<christian>Benjamin</christian>
+<team>Haldens</team>
+<club>(Haldens)</club>
+<tel>07765 809664</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>149</id>
-<surname>Potts</surname>
-<christian>John</christian>
-<team>Welwyn B</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>John</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Bartropp</surname>
+<christian>Steve</christian>
+<team>Haldens A</team>
+<club>Haldens </club>
+<tel>07776 328000</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>150</id>
-<surname>Warner</surname>
-<christian>Peter</christian>
-<team>Welwyn B</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Peter</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Drake</surname>
+<christian>Ashley</christian>
+<team>Haldens A</team>
+<club>Haldens </club>
+<tel>07444 770581</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>151</id>
-<surname>Wilde</surname>
-<christian>David</christian>
-<team>Welwyn B</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>David</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Brooks</surname>
+<christian>Jamie</christian>
+<team>Haldens A</team>
+<club>Haldens </club>
+<tel>07709 324432</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>152</id>
-<surname>Bailey</surname>
-<christian>Rob</christian>
-<team>Welwyn D</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Rob</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Paterson-Proto</surname>
+<christian>Jordan</christian>
+<team>Haldens A</team>
+<club>Haldens </club>
+<tel>07772 215663</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>153</id>
-<surname>Brunel</surname>
-<christian>Nick</christian>
-<team>Welwyn D</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Nick</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Pilborough</surname>
+<christian>Mark</christian>
+<team>Haldens A</team>
+<club>Haldens </club>
+<tel>07975 883780</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>154</id>
-<surname>Brunson</surname>
-<christian>Rob</christian>
-<team>Welwyn D</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Rob</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Read</surname>
+<christian>Dave</christian>
+<team>Haldens A</team>
+<club>Haldens </club>
+<tel>07766 578424</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>155</id>
-<surname>Carter</surname>
-<christian>Eric</christian>
-<team>Welwyn D</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Eric</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Reade</surname>
+<christian>Gordon</christian>
+<team>Haldens A</team>
+<club>Haldens </club>
+<tel>07810 265865</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>156</id>
-<surname>Cooper</surname>
-<christian>Denis</christian>
-<team>Welwyn D</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Denis</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Reade</surname>
+<christian>Liam</christian>
+<team>Haldens A</team>
+<club>Haldens </club>
+<tel>07715 572539</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>Y</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>capt</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>157</id>
-<surname>Digby</surname>
-<christian>Wayne</christian>
-<team>Welwyn D</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Wayne</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Harrison</surname>
+<christian>Trevor</christian>
+<team>Haldens A</team>
+<club>Haldens </club>
+<tel>07759 099720</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>158</id>
-<surname>Hale</surname>
-<christian>Lee</christian>
-<team>Welwyn D</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Lee</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<surname>Bunce</surname>
+<christian>Jake</christian>
+<team>Haldens B</team>
+<club>Haldens </club>
+<tel>07402 777492</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 <player>
 <id>159</id>
+<surname>Cartwright</surname>
+<christian>Bob</christian>
+<team>Haldens B</team>
+<club>Haldens </club>
+<tel>01707 325742</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>160</id>
+<surname>Cox</surname>
+<christian>Keith</christian>
+<team>Haldens B</team>
+<club>Haldens </club>
+<tel>07712 980852</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>161</id>
+<surname>Davis</surname>
+<christian>Mick</christian>
+<team>Haldens B</team>
+<club>Haldens </club>
+<tel>-</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>162</id>
+<surname>Marchese</surname>
+<christian>Joe</christian>
+<team>Haldens B</team>
+<club>Haldens </club>
+<tel>07891 820654</tel>
+<jw>Y</jw>
+<jg>Y</jg>
+<ssc>Y</ssc>
+<ssh>Y</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>163</id>
+<surname>O'Connor</surname>
+<christian>Paul</christian>
+<team>Haldens B</team>
+<club>Haldens </club>
+<tel>07825 051839</tel>
+<jw>Y</jw>
+<jg>Y</jg>
+<ssc>Y</ssc>
+<ssh>Y</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>164</id>
+<surname>O'Connor</surname>
+<christian>Rory</christian>
+<team>Haldens B</team>
+<club>Haldens </club>
+<tel>07737 463028</tel>
+<jw>Y</jw>
+<jg>Y</jg>
+<ssc>Y</ssc>
+<ssh>Y</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>165</id>
+<surname>Walters</surname>
+<christian>Chris</christian>
+<team>Haldens B</team>
+<club>Haldens </club>
+<tel>-</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>166</id>
+<surname>White</surname>
+<christian>Shayne</christian>
+<team>Haldens B</team>
+<club>Haldens </club>
+<tel>07508 166888</tel>
+<jw>Y</jw>
+<jg>Y</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>167</id>
+<surname>Beaumont</surname>
+<christian>Dave</christian>
+<team>Haldens C</team>
+<club>Haldens </club>
+<tel>07306 260256</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>168</id>
+<surname>Clarke</surname>
+<christian>Andy</christian>
+<team>Haldens C</team>
+<club>Haldens </club>
+<tel>07545 333084</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>169</id>
+<surname>Gibson</surname>
+<christian>Dylan</christian>
+<team>Haldens C</team>
+<club>Haldens </club>
+<tel>07938 470759</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>170</id>
+<surname>Goodby</surname>
+<christian>Dave</christian>
+<team>Haldens C</team>
+<club>Haldens </club>
+<tel>01707 335041</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>171</id>
+<surname>Griffiths</surname>
+<christian>Leigh</christian>
+<team>Haldens C</team>
+<club>Haldens </club>
+<tel>07969 976867</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>172</id>
+<surname>Patel</surname>
+<christian>Hemant</christian>
+<team>Haldens C</team>
+<club>Haldens </club>
+<tel>07768 867936</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>173</id>
+<surname>Pond</surname>
+<christian>Callum</christian>
+<team>Haldens C</team>
+<club>Haldens </club>
+<tel>07522 495658</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>174</id>
+<surname>Turner</surname>
+<christian>John</christian>
+<team>Haldens C</team>
+<club>Haldens </club>
+<tel>07923 934355</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>175</id>
+<surname>Ward</surname>
+<christian>Steve</christian>
+<team>Haldens C</team>
+<club>Haldens </club>
+<tel>07960 864098</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>176</id>
+<surname>Atherley</surname>
+<christian>Ryan</christian>
+<team>Haldens D</team>
+<club>Haldens </club>
+<tel>07508 899035</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>177</id>
+<surname>Evans</surname>
+<christian>John</christian>
+<team>Haldens D</team>
+<club>Haldens </club>
+<tel>07854 382366</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>178</id>
+<surname>McGreevy</surname>
+<christian>Lee</christian>
+<team>Haldens D</team>
+<club>Haldens </club>
+<tel>07704 105466</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>179</id>
+<surname>Mortar</surname>
+<christian>Matt</christian>
+<team>Haldens D</team>
+<club>Haldens </club>
+<tel>07770 901743</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>180</id>
+<surname>Motekhasses</surname>
+<christian>Bijan</christian>
+<team>Haldens D</team>
+<club>Haldens </club>
+<tel>07425 170772</tel>
+<jw>Y</jw>
+<jg>Y</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>181</id>
+<surname>O'Neill</surname>
+<christian>Steve</christian>
+<team>Haldens D</team>
+<club>Haldens </club>
+<tel>07904 430876</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>182</id>
+<surname>Payne</surname>
+<christian>Mark</christian>
+<team>Haldens D</team>
+<club>Haldens </club>
+<tel>07411 956137</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>183</id>
+<surname>Reade</surname>
+<christian>Garry</christian>
+<team>Haldens D</team>
+<club>Haldens </club>
+<tel>07915 908978</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>184</id>
+<surname>Priolo</surname>
+<christian>Mario</christian>
+<team>Haldens D</team>
+<club>Haldens </club>
+<tel>07952 636015</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>185</id>
+<surname>Berger</surname>
+<christian>Alan</christian>
+<team>Haldens E</team>
+<club>Haldens </club>
+<tel>07956 064626</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>186</id>
+<surname>Cross</surname>
+<christian>Nigel</christian>
+<team>Haldens E</team>
+<club>Haldens </club>
+<tel>07487 778890</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>187</id>
+<surname>Harris</surname>
+<christian>Steve</christian>
+<team>Haldens E</team>
+<club>Haldens </club>
+<tel>07598 683010</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>188</id>
+<surname>Haworth</surname>
+<christian>Warren</christian>
+<team>Haldens E</team>
+<club>Haldens </club>
+<tel>07753 928699</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>189</id>
+<surname>Lemel</surname>
+<christian>David</christian>
+<team>Haldens E</team>
+<club>Haldens </club>
+<tel>07768 917844</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>190</id>
+<surname>Phillips</surname>
+<christian>Craig</christian>
+<team>Haldens E</team>
+<club>Haldens </club>
+<tel>07521 490595</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>191</id>
+<surname>Robinson</surname>
+<christian>Michael</christian>
+<team>Haldens E</team>
+<club>Haldens </club>
+<tel>07973 214739</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>192</id>
+<surname>Alexander</surname>
+<christian>Adam</christian>
+<team>Haldens F</team>
+<club>Haldens </club>
+<tel>07917 341008</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>193</id>
+<surname>Bunney</surname>
+<christian>David</christian>
+<team>Haldens F</team>
+<club>Haldens </club>
+<tel>07889 923566</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>194</id>
+<surname>Davies</surname>
+<christian>John</christian>
+<team>Haldens F</team>
+<club>Haldens </club>
+<tel>07746 708635</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>195</id>
+<surname>Harding</surname>
+<christian>Ricky</christian>
+<team>Haldens F</team>
+<club>Haldens </club>
+<tel>07769 334740</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>196</id>
+<surname>Madill</surname>
+<christian>Stuart</christian>
+<team>Haldens F</team>
+<club>Haldens </club>
+<tel>07535 017487</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>197</id>
+<surname>Merrifield</surname>
+<christian>Philip</christian>
+<team>Haldens F</team>
+<club>Haldens </club>
+<tel>07966 568965</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>198</id>
+<surname>Read</surname>
+<christian>Martin</christian>
+<team>Haldens F</team>
+<club>Haldens </club>
+<tel>07516 488717</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>199</id>
+<surname>Soderberg</surname>
+<christian>Scott</christian>
+<team>Haldens F</team>
+<club>Haldens </club>
+<tel>07789 605132</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>200</id>
+<surname>Somerfield</surname>
+<christian>Benjamin</christian>
+<team>Haldens F</team>
+<club>Haldens </club>
+<tel>07990 752129</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>201</id>
+<surname>Wheeler</surname>
+<christian>David</christian>
+<team>Haldens F</team>
+<club>Haldens </club>
+<tel>07873 702826</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>202</id>
+<surname>Arif</surname>
+<christian>Peri</christian>
+<team>North Mymms A</team>
+<club>North Mymms </club>
+<tel>07432 119500</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>203</id>
+<surname>Claxton</surname>
+<christian>Danny</christian>
+<team>North Mymms A</team>
+<club>North Mymms </club>
+<tel>-</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>204</id>
+<surname>Deo</surname>
+<christian>Satnam</christian>
+<team>North Mymms A</team>
+<club>North Mymms </club>
+<tel>07970 474380</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>205</id>
+<surname>Elias</surname>
+<christian>Iyad</christian>
+<team>North Mymms A</team>
+<club>North Mymms </club>
+<tel>07940 701740</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>Y</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>206</id>
+<surname>Georgiou</surname>
+<christian>Chris</christian>
+<team>North Mymms A</team>
+<club>North Mymms </club>
+<tel>07753 313693</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>207</id>
+<surname>Gibbs</surname>
+<christian>Steve</christian>
+<team>North Mymms A</team>
+<club>North Mymms </club>
+<tel>07738 685678</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>Y</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>208</id>
+<surname>Hurley</surname>
+<christian>Paul Jnr</christian>
+<team>North Mymms A</team>
+<club>North Mymms </club>
+<tel>07758 927711</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>209</id>
+<surname>Miller</surname>
+<christian>Stephen</christian>
+<team>North Mymms A</team>
+<club>North Mymms </club>
+<tel>07773 402742</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>Y</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>210</id>
+<surname>Powell</surname>
+<christian>Rob</christian>
+<team>North Mymms A</team>
+<club>North Mymms </club>
+<tel>07868 707152</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>211</id>
+<surname>Sachs</surname>
+<christian>Kim</christian>
+<team>North Mymms A</team>
+<club>North Mymms </club>
+<tel>07954 588501</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>212</id>
+<surname>Batehup</surname>
+<christian>Keith</christian>
+<team>North Mymms B</team>
+<club>North Mymms </club>
+<tel>07855 251945</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>Y</ssh>
+<sdc>-</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>213</id>
+<surname>Currie</surname>
+<christian>Steve</christian>
+<team>North Mymms B</team>
+<club>North Mymms </club>
+<tel>07795 322098</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>214</id>
+<surname>Davis</surname>
+<christian>Daniel</christian>
+<team>North Mymms B</team>
+<club>North Mymms </club>
+<tel>-</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>215</id>
+<surname>Hilborne</surname>
+<christian>Steve</christian>
+<team>North Mymms B</team>
+<club>North Mymms </club>
+<tel>07500 667276</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>216</id>
+<surname>Lightfoot</surname>
+<christian>Neil</christian>
+<team>North Mymms B</team>
+<club>North Mymms </club>
+<tel>07512 855563</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>217</id>
+<surname>Lynch</surname>
+<christian>Sean</christian>
+<team>North Mymms B</team>
+<club>North Mymms </club>
+<tel>07842 838809</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>Y</ssh>
+<sdc>-</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>218</id>
+<surname>Sanders</surname>
+<christian>Ian</christian>
+<team>North Mymms B</team>
+<club>North Mymms </club>
+<tel>07763 540379 </tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>219</id>
+<surname>Tehrani</surname>
+<christian>Ali</christian>
+<team>North Mymms B</team>
+<club>North Mymms </club>
+<tel>07432 020698</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>220</id>
+<surname>Trinder</surname>
+<christian>Tony</christian>
+<team>North Mymms B</team>
+<club>North Mymms </club>
+<tel>01707 266302</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>Y</ssh>
+<sdc>-</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>221</id>
+<surname>Ward</surname>
+<christian>Nigel</christian>
+<team>North Mymms B</team>
+<club>North Mymms </club>
+<tel> 07590 250562</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>222</id>
+<surname>Caulfield</surname>
+<christian>Sean</christian>
+<team>North Mymms C</team>
+<club>North Mymms </club>
+<tel>07831 482165</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>223</id>
+<surname>Doocey</surname>
+<christian>Liam</christian>
+<team>North Mymms C</team>
+<club>North Mymms </club>
+<tel>07429 083951</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>224</id>
+<surname>Dormer</surname>
+<christian>Joe</christian>
+<team>North Mymms C</team>
+<club>North Mymms </club>
+<tel>07964 516358</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>225</id>
+<surname>Herdman</surname>
+<christian>Andy</christian>
+<team>North Mymms C</team>
+<club>North Mymms </club>
+<tel>07534 714828</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>Y</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>226</id>
+<surname>Doherty</surname>
+<christian>Adrian</christian>
+<team>North Mymms C</team>
+<club>North Mymms </club>
+<tel>07966 208848</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>227</id>
+<surname>Clews</surname>
+<christian>Simon</christian>
+<team>North Mymms C</team>
+<club>North Mymms </club>
+<tel>-</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>228</id>
+<surname>Feuell</surname>
+<christian>Mark</christian>
+<team>North Mymms C</team>
+<club>North Mymms </club>
+<tel>-</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>229</id>
+<surname>Chapman</surname>
+<christian>Bob</christian>
+<team>Welwyn A</team>
+<club>Welwyn </club>
+<tel>07736 809360</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>230</id>
+<surname>Chapman</surname>
+<christian>Sean</christian>
+<team>Welwyn A</team>
+<club>Welwyn </club>
+<tel>07743 391024</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>231</id>
+<surname>Cheriton</surname>
+<christian>Che</christian>
+<team>Welwyn A</team>
+<club>Welwyn </club>
+<tel>07933 237668</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>232</id>
+<surname>Freeman</surname>
+<christian>Peter</christian>
+<team>Welwyn A</team>
+<club>Welwyn </club>
+<tel>07836 788675</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>233</id>
+<surname>McCague</surname>
+<christian>Hugh</christian>
+<team>Welwyn A</team>
+<club>Welwyn </club>
+<tel>07594 635727</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>234</id>
+<surname>Montague</surname>
+<christian>Ken</christian>
+<team>Welwyn A</team>
+<club>Welwyn </club>
+<tel>07826 747270</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>235</id>
+<surname>Roles</surname>
+<christian>Steve</christian>
+<team>Welwyn A</team>
+<club>Welwyn </club>
+<tel>07952 370805</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>236</id>
+<surname>Skeggs</surname>
+<christian>David</christian>
+<team>Welwyn A</team>
+<club>Welwyn </club>
+<tel>07760 467551</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>237</id>
+<surname>Skeggs</surname>
+<christian>Simon</christian>
+<team>Welwyn A</team>
+<club>Welwyn </club>
+<tel>07900 182299</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>238</id>
+<surname>Woodhead</surname>
+<christian>Matthew</christian>
+<team>Welwyn A</team>
+<club>Welwyn </club>
+<tel>07954 498591</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>239</id>
+<surname>Goldsmith</surname>
+<christian>Darren</christian>
+<team>Welwyn B</team>
+<club>Welwyn </club>
+<tel>07711 834404</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>240</id>
+<surname>Hodgson</surname>
+<christian>Nick</christian>
+<team>Welwyn B</team>
+<club>Welwyn </club>
+<tel>07715 342862</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>241</id>
+<surname>Kightley</surname>
+<christian>Oliver</christian>
+<team>Welwyn B</team>
+<club>Welwyn </club>
+<tel>07432 618199</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>Y</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>242</id>
+<surname>Lund</surname>
+<christian>Simon</christian>
+<team>Welwyn B</team>
+<club>Welwyn </club>
+<tel>07725 445300</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>243</id>
+<surname>Potts</surname>
+<christian>John</christian>
+<team>Welwyn B</team>
+<club>Welwyn </club>
+<tel>07584 150762</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>244</id>
+<surname>Warner</surname>
+<christian>James</christian>
+<team>Welwyn B</team>
+<club>Welwyn </club>
+<tel>07493 108919</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>245</id>
+<surname>Warner</surname>
+<christian>Peter</christian>
+<team>Welwyn B</team>
+<club>Welwyn </club>
+<tel>07786 438694</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>246</id>
+<surname>Wilde</surname>
+<christian>David</christian>
+<team>Welwyn B</team>
+<club>Welwyn </club>
+<tel>07791 285986</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>247</id>
+<surname>Caulfield</surname>
+<christian>Jack</christian>
+<team>Welwyn C</team>
+<club>Welwyn </club>
+<tel>07821 059568</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>248</id>
+<surname>Caulfield</surname>
+<christian>Joe</christian>
+<team>Welwyn C</team>
+<club>Welwyn </club>
+<tel>07881 861804</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>249</id>
+<surname>Cottrell</surname>
+<christian>Archie</christian>
+<team>Welwyn C</team>
+<club>Welwyn </club>
+<tel>07849 684551</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>250</id>
+<surname>Goodbrand</surname>
+<christian>John</christian>
+<team>Welwyn C</team>
+<club>Welwyn </club>
+<tel>07776 052824</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>251</id>
+<surname>Mills</surname>
+<christian>Andrew</christian>
+<team>Welwyn C</team>
+<club>Welwyn </club>
+<tel>07436 683677</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>252</id>
+<surname>Nash</surname>
+<christian>Gary</christian>
+<team>Welwyn C</team>
+<club>Welwyn </club>
+<tel>07916 345368</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>253</id>
+<surname>Warne</surname>
+<christian>Ben</christian>
+<team>Welwyn C</team>
+<club>Welwyn </club>
+<tel>07904 471617</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>254</id>
+<surname>Woodhead</surname>
+<christian>Alan</christian>
+<team>Welwyn C</team>
+<club>Welwyn </club>
+<tel>01438 717371</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>255</id>
+<surname>Bailey</surname>
+<christian>Rob</christian>
+<team>Welwyn D</team>
+<club>Welwyn </club>
+<tel>07921 055236</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>256</id>
+<surname>Brum</surname>
+<christian>Derek</christian>
+<team>Welwyn D</team>
+<club>Welwyn </club>
+<tel>07803 159234</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>257</id>
+<surname>Brunel</surname>
+<christian>Nick</christian>
+<team>Welwyn D</team>
+<club>Welwyn </club>
+<tel>07794 964492</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>258</id>
+<surname>Brunson</surname>
+<christian>Rob</christian>
+<team>Welwyn D</team>
+<club>Welwyn </club>
+<tel>07973 402619</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>259</id>
+<surname>Carter</surname>
+<christian>Eric</christian>
+<team>Welwyn D</team>
+<club>Welwyn </club>
+<tel>07309 722322</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>260</id>
+<surname>Cooper</surname>
+<christian>Denis</christian>
+<team>Welwyn D</team>
+<club>Welwyn </club>
+<tel>07850 593358</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>261</id>
+<surname>Digby</surname>
+<christian>Wayne</christian>
+<team>Welwyn D</team>
+<club>Welwyn </club>
+<tel>07530 592839</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>262</id>
+<surname>Hale</surname>
+<christian>Lee</christian>
+<team>Welwyn D</team>
+<club>Welwyn </club>
+<tel>07490 633647</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>263</id>
+<surname>Hanley</surname>
+<christian>Matt</christian>
+<team>Welwyn D</team>
+<club>Welwyn </club>
+<tel>07796 574312</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>264</id>
 <surname>Thompson</surname>
 <christian>Jim</christian>
 <team>Welwyn D</team>
-<club>Welwyn</club>
-<tel></tel>
-<jw></jw>
-<jg></jg>
-<ssc>Jim</ssc>
-<ssh></ssh>
-<sdc></sdc>
-<sdh></sdh>
-<bsc></bsc>
-<bsh></bsh>
-<changed></changed>
+<club>Welwyn </club>
+<tel>01438 716350</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>Y</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>Y</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>265</id>
+<surname>Wannell</surname>
+<christian>Scott</christian>
+<team>Welwyn D</team>
+<club>Welwyn </club>
+<tel>07908 113025</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>266</id>
+<surname>Beeney</surname>
+<christian>Jamie</christian>
+<team>Welwyn E</team>
+<club>Welwyn </club>
+<tel>07969 819626</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>267</id>
+<surname>Howe</surname>
+<christian>David</christian>
+<team>Welwyn E</team>
+<club>Welwyn </club>
+<tel>07946 334222</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>Y</ssh>
+<sdc>-</sdc>
+<sdh>Y</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>268</id>
+<surname>Howe</surname>
+<christian>Graham</christian>
+<team>Welwyn E</team>
+<club>Welwyn </club>
+<tel>07894 387843</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>269</id>
+<surname>Mason</surname>
+<christian>Rob</christian>
+<team>Welwyn E</team>
+<club>Welwyn </club>
+<tel>07927 315084</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>270</id>
+<surname>McGuinness</surname>
+<christian>Martyn</christian>
+<team>Welwyn E</team>
+<club>Welwyn </club>
+<tel>07545 925609</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>capt</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>271</id>
+<surname>Owen</surname>
+<christian>Russell</christian>
+<team>Welwyn E</team>
+<club>Welwyn </club>
+<tel>07545 925608</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>272</id>
+<surname>Peake</surname>
+<christian>David</christian>
+<team>Welwyn E</team>
+<club>Welwyn </club>
+<tel>07437 018500</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>273</id>
+<surname>Pollard</surname>
+<christian>Paul</christian>
+<team>Welwyn E</team>
+<club>Welwyn </club>
+<tel>-</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>274</id>
+<surname>Smith</surname>
+<christian>Paul R</christian>
+<team>Welwyn E</team>
+<club>Welwyn </club>
+<tel>07971 838337</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
+</player>
+<player>
+<id>275</id>
+<surname>Somerville</surname>
+<christian>Hans</christian>
+<team>Welwyn E</team>
+<club>Welwyn </club>
+<tel>07463 865333</tel>
+<jw>-</jw>
+<jg>-</jg>
+<ssc>-</ssc>
+<ssh>-</ssh>
+<sdc>-</sdc>
+<sdh>-</sdh>
+<bsc>-</bsc>
+<bsh>-</bsh>
+<captain>-</captain>
+<changed>-</changed>
 </player>
 </Registrations>
 
