@@ -1,0 +1,660 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+
+
+  #club_division{ 
+        height: auto; 
+	min-height:150px;
+        width: 370px;
+	position:absolute;
+	top:72px;
+  	background-color:pink;
+	padding-top:10px;
+	border-style:solid;
+	border-width:2px;
+    } 
+
+#club_division span{
+	display:inline-block;
+	padding:5px 10px;
+    }
+#bu_add_club{
+	position:absolute;
+	display:block;
+	bottom:1px;
+	left:10px;
+	}
+#bu_edit_club{
+	position:absolute;
+	display:block;
+	bottom:1px;
+	left:90px;
+	}
+#bu_add_club{
+	position:absolute;
+	display:block;
+	bottom:1px;
+	left:10px;
+	}
+#bu_delete_club{
+	position:absolute;
+	display:block;
+	bottom:1px;
+	left:170px;
+	}
+
+	
+#rep_division{ 
+        height: 150px; 
+        width: 300px; 
+	position:absolute;
+	top:72px;
+	left:382px;
+	padding-left:20px;
+  	background-color:pink;
+	padding-top:10px;
+	border-style:solid;
+	border-width:2px 2px 2px 0px;
+    } 
+
+
+.rep_detail{
+	position:absolute;
+	top: 44px;
+	line-height:26px;
+	}
+#bu_confirm_club{
+	position:absolute;
+	display:none;
+	top:85px;
+	left:140px;
+	}
+#bu_cancel_club{
+	position:absolute;
+	display:none;
+	top:85px;
+	left:220px;
+	}
+
+#rep_division input{
+	position:absolute;
+	width:180px;
+	font-size:14px;
+	left:90px;
+	}
+
+#rep_title{
+	
+	}
+#rep_club_name {
+	position:relative;
+	top:-18px;		
+	display:none;
+}
+
+ #team_division{ 
+        height: 150px; 
+        width: 360px; 
+	position:absolute;
+	top:72px;
+	left:704px;
+	padding-left:10px;
+  	background-color:yellow;
+	padding-top:10px;
+	border-style:solid;
+	border-width:2px 2px 2px 0px;
+    } 
+
+  #team_list{ 
+        height: 108px; 
+        width: 100px; 
+	position:relative;
+	top:-2px;
+	left:-7px;
+  	background-color:pink;
+	
+    } 
+
+#team_list span{
+	display:inline-block;
+	padding:5px 10px;
+     }
+ 
+#night_division{
+	height:150px;
+	width:162px;
+	position:absolute;
+	top:72px;
+	left:1076px;
+	padding-top:10px;
+	padding-left:10px;
+	background-color:pink;
+	border-style:solid;
+	border-width:2px 2px 2px 0px;
+	}	
+
+
+#player_header{ 
+        height: 25px; 
+        width: 1200px; 
+	position:absolute;
+	top:237px;
+	padding-left:20px;
+	padding-top:5px;
+	padding-right:20px;
+  	background-color:LightBlue;
+	border-style:solid;
+	border-width:2px 2px 0px 2px;
+    } 
+
+#player_header label{
+	font-size:16px;
+	padding-top:5px;
+	position:absolute;
+
+	}
+ #player_division{ 
+        height: auto; 
+	min-height:200px;
+        width: 1200px; 
+
+	position:absolute;
+	top:270px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+  	background-color:LightBlue;
+	line-height:5px;
+	border-style:solid;
+	border-width:1px 2px 3px 3px;
+    } 
+#player_division input[type = "radio"]{
+	position:relative;
+	top:0px;;
+	margin-left:-10px;
+	margin-right: 5px;
+	}
+
+#player_division input[type = "text"]{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:120px;
+	font-size:16px;
+	margin-left:5px;
+	}
+
+#player_division input[type = "checkbox"]{
+	position:relative;
+	top:5px;
+	height:16px;
+	width:16px;
+	margin-left:26px;
+	}
+
+#player_division input[name="pl_partner"]{
+	width:160px;
+	font-size:16px;
+	}
+
+#player_division .pl_partner_drop{
+	width:160px;
+	font-size:16px;
+	margin-left:5px;
+	}
+.pl_bu{
+	width:65px;
+	height:20px;
+	margin-left:10px;
+	}
+span .remove{
+	color:red;
+	}
+span .keep{
+	color:black;
+	}	
+#bu_save_player{
+	position:absolute;
+	display:block;
+	bottom:1px;
+	right:70px;
+	}
+#drop_divsion {
+	height:20px;
+	width:200px;
+	position:aboslute;
+	top:750px;
+	background-color:PaleGreen;
+	}
+select{
+	font-size:16px;
+	}
+#dropdown {
+	position:absolute;
+	width:320px;
+	background-color:PaleGreen;	
+	}
+
+option{background-color:PaleGreen}
+#edit{
+	height:100px;
+	width:1000px;
+	position:relative;
+	top:900px;
+	background-color:PaleGreen;
+	}
+input[type = "radio"]{
+	height:15px;
+	width:15px;
+	}
+
+input[type = "text"]{
+
+
+	}
+
+#l_captain{left:2px;}
+#l_fname{left:50px;}
+#l_sname{left:170px;}
+#l_tel{left:300px;}
+
+#l_jw{left:452px;}
+#l_gg{left:496px;}
+#l_sc{left:541px;}
+#l_bc{left:587px;}
+#l_sh{left:628px;}
+#l_bh{left:675px;}
+#l_dc{left:722px;}
+#l_dc_partner{left:780px;}
+#l_dh{left:935px;}
+#l_dh_partner{left:990px;}
+
+
+.div_title{
+	font-size:20px;
+	font-weight:bold;
+	}
+#club_array{visibility:hidden}
+#team_array{visibility:hidden}		
+#player_array{visibility:hidden}
+
+
+
+
+
+#message{
+	position:fixed;
+	height:100px;
+	width:400px;
+	background-color:grey;
+	top:250px;
+	left:400px;
+	border-radius:10px;
+	display:none;
+	color:white;
+	padding-left:40px;
+	font-size:20px;
+	}
+#message button{
+	position:absolute;
+	top: 70px;
+	left:330px;
+	width:50px;
+	border-radius:5px;
+	}	
+
+</style>
+
+<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script  type="text/javascript" src="dev_js_script_file_edit_player.js"></script>
+<script  type="text/javascript" src="dev_js_script_file_reg.js"></script>
+<script  type="text/javascript" src="dev_js_script_file_edit_club.js"></script>
+<script  type="text/javascript" src="dev_js_script_file_ajax.js"></script>
+
+</head>	
+
+<body onload= "load_doc()" >
+
+<div id ="temp_division">
+	<button id = "test_button">test</button>
+</div>
+
+
+
+<div id="club_division">
+<span class = "div_title">Select a Club</span><br>
+<button id="bu_add_club">Add Club</button>
+<button id="bu_edit_club">Edit club</button>
+<button id="bu_delete_club">Delete club</button>
+</div>
+
+
+<div id = "rep_division">
+	
+<span id ="rep_title" class = "div_title">Reps Details </span><br>	
+
+<span id="rep_club_name">
+	<label >Club name:</label>
+	<input id="ip_club_name" type ='text'>
+</span><br>
+	
+	<span class ="rep_detail">	
+		<label id="la_reps_name">Reps name:</label>
+  		<input type="text" id="ip_reps_name" name="rep_data"><br>
+  		
+		<label  id ="la_reps_tel">Reps Tel:</label>
+  		<input type="text" id="ip_reps_tel" ><br>
+		
+		<label  id="la_reps_email">Reps E-Mail:</label>
+  		<input type="text" id="ip_reps_email" <br>
+		
+		<button id ="bu_confirm_club"> Confirm</button>
+		<button id = "bu_cancel_club">Cancel</button>
+	</span>
+</div>
+
+<div id = "team_division" >
+	<span id = "team_title" class = "div_title"> Select a Team </span><br>
+
+		<span id="team_list">
+		
+		</span>
+	</div>
+</div> 
+<div id = "night_division">
+	<span id = "home_id" class = "div_title"> Home Night</span><br>
+	<span>
+	<input type = 'radio' id = "rb_Monday" name = "night">
+	<label for = "rb_Monday"> Monday</label><br>
+
+	<input type = 'radio' id = "rb_Tuesday" name = "night" >
+	<label for ="rb_Tuesday"> Tuesday</label><br>
+
+	<input type = 'radio' id = "rb_Wednesday" name= "night">
+	<label for ="rb_Wednesday"> Wednesday</label><br>
+
+	<input type = 'radio' id = "rb_Thursday" name = "night">
+	<label for ="rb_Thursday"> Thursday</label>
+	</span>
+</div>
+<div id="player_header">
+<label id = "l_captain"> Capt.</label>
+<label id = "l_fname"> Forename </label>
+<label id = "l_sname"> Surname </label>
+<label id = "l_tel"> Telephone</label>
+<label id = "l_jw"> JW </label>
+<label id = "l_gg"> GG </label>
+<label id = "l_sc"> SC </label>
+<label id = "l_bc"> BC </label>
+<label id = "l_sh">SH </label>
+<label id = "l_bh"> BH </label>
+<label id = "l_dc"> DC</label>
+<label id = "l_dc_partner"> DC Partner</label>
+<label id = "l_dh"> DH</label>
+<label id = "l_dh_partner"> DH Partner</label>
+
+<button id = "bu_save_player">Save Player</button>
+
+</div>
+<div id = "player_division">
+<!--
+
+<button id = "p1">Add Player</button>
+<button id ="p2">Edit Player</button>
+<button id = "p3">Delete Player</button>
+-->
+
+</div>
+<div id = "drop_division">
+	<select id="dropdown" >
+		<option value="1" >Select Player</option>
+		<option value="2" >Cancel</option>
+	</select>
+</div>
+
+
+<div id="edit">
+	<input id="edit_club_ip" type="text"></input> 
+	<button id= "bu_club_submit">Submit </button>
+
+<br><br><br>
+	
+
+<button id ="c2">Test Button</button>
+<button id = "c3">Delete Club</button>
+<br><br><br>
+<button id = "t1">Add Team</button>
+<button id ="t2">Edit Team</button>
+<button id = "t3">Delete Team</>
+
+</div>
+<div id = "message">
+
+<p id = "p_msg1"></p>
+<p id = "p_msg2"></p>
+<button id = "bu_msg_ok"> OK </button>
+</div>
+
+
+<div >
+<ul id = 'club_array'>
+<li>100&County Club&Steve Smith&07515 587159&steve.smith.47@hotmail.co.uk&.&</li>
+<li>101&Frank's&Robert Lampey&07931 474375&rlampey@googlemail.com&.&</li>
+<li>102&Goffs Oak&Ala Dew&07895 640871&talandew@outlook.com&.&</li>
+<li>103&Haldens&Andy Clarke&07545 333084&andydibsclarke@hotmail.co.uk&.&</li>
+<li>104&North Mymms&Iyad Elias&07940 701740&ielias85@hotmail.co.uk&.&</li>
+<li>105&Welwyn&Jim Thompson&01438 716350&j-thompson33@sky.com&.&</li>
+</ul>
+<ul id = 'team_array'>
+<li>100&100&County Club A&Monday&.&</li>
+<li>101&101&Frank's A&Monday&.&</li>
+<li>102&102&Goffs Oak A&Monday&.&</li>
+<li>102&103&Goffs Oak B&Wednesday&.&</li>
+<li>103&104&Haldens O&Tuesday&.&</li>
+<li>103&105&Haldens A&Thursday&.&</li>
+<li>103&106&Haldens B&Monday&.&</li>
+<li>103&107&Haldens C&Thursday&.&</li>
+<li>103&108&Haldens D&Tuesday&.&</li>
+<li>103&109&Haldens E&Wednesday&.&</li>
+<li>103&110&Haldens F&Monday&.&</li>
+<li>104&111&North Mymms A&Monday&.&</li>
+<li>104&112&North Mymms B&Thursday&.&</li>
+<li>104&113&North Mymms C&Tuesday&.&</li>
+<li>105&114&Welwyn A&Wednesday&.&</li>
+<li>105&115&Welwyn B&Thursday&.&</li>
+<li>105&116&Welwyn C&Monday&.&</li>
+<li>105&117&Welwyn D&Tuesday&.&</li>
+<li>105&118&Welwyn E&Wednesday&.&</li>
+</ul>
+<ul id = 'player_array'>
+<li>100&100&Andrew&Chichester&07515 578260&false&false&true&false&true&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>100&101&Adrian&Cornecan&.&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>100&102&Steven &Gibbs&07535 055193&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>100&103&Roger&Jashek&07944 181237&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>100&104&Kevin&Mathew&07771 825135&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>100&105&Brad&McCarthy&.&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>100&106&Adrian&Poulter&07806 497794&false&false&false&true&false&true&false&false&false&.&.&.&.&.&.&.&</li>
+<li>100&107&Steve&Smith&07515 587159&false&false&false&true&false&true&false&false&true&.&.&.&.&.&.&.&</li>
+<li>100&108&Andrew&Tagg&07973 757342&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>100&109&Neil&Tagg&07973 757342&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>100&110&Peter&Wastell&.&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>101&111&Michael&Andrews&07913 817822&true&true&true&true&true&true&true&true&false&.&112&112&Stephen&Andrews&Stephen&Andrews&</li>
+<li>101&112&Stephen&Andrews&07504 981989&true&true&true&false&true&false&true&true&false&.&111&111&Michael&Andrews&Michael&Andrews&</li>
+<li>101&113&Richard&Chan&07973 505025&true&true&true&false&true&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>101&114&Robert&Lampey&07931 474395&true&true&true&true&true&true&true&true&false&.&118&119&Sid&Smith&John&Spinks&</li>
+<li>101&115&Mathew&Reid&07826 523233&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>101&116&Pang&Singh&.&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>101&117&Des&Smith&07930 333847&true&true&true&false&true&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>101&118&Sid&Smith&07989 597911&false&true&true&true&false&false&true&false&false&.&114&.&Robert&Lampey&.&.&</li>
+<li>101&119&John&Spinks&07874 654767&true&true&false&true&false&true&false&true&true&.&.&114&.&.&Robert&Lampey&</li>
+<li>101&120&Richard&Taylor&07786 949997&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>101&121&Kit&Wong&07427 658027&false&false&false&true&false&true&false&false&false&.&.&.&.&.&.&.&</li>
+<li>102&122&Alan&Dew&07895 640871&false&false&false&false&false&false&false&false&true&.&.&.&.&.&.&.&</li>
+<li>102&123&Rino&Dimaio&07939 343499&false&false&true&false&true&false&true&true&false&.&130&130&Peter&Peters&Peter&Peters&</li>
+<li>102&124&Bobby&Dyer&07743 807085&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>102&125&John&Ebbs&07903 562376&false&false&true&false&true&false&true&true&false&.&126&126&Martin&Grainger&Martin&Grainger&</li>
+<li>102&126&Martin&Grainger&07900 888788&false&false&true&false&true&false&true&true&false&.&125&125&John&Ebbs&John&Ebbs&</li>
+<li>102&127&Paul&Grant&07876 113016&false&false&false&false&false&false&true&true&false&.&128&128&Mike&Locke&Mike&Locke&</li>
+<li>102&128&Mike&Locke&07961 340768&false&false&false&false&false&false&true&true&false&.&127&127&Paul&Grant&Paul&Grant&</li>
+<li>102&129&Jamie&Needs&07881 505862&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>102&130&Peter&Peters&07949 089499&false&false&false&false&false&false&true&true&false&.&123&123&Rino&Dimaio&Rino&Dimaio&</li>
+<li>102&131&Dave&Wilkins&01992 426150&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>103&132&Alan&Alger&07954 090542&false&false&false&false&false&false&false&true&false&.&.&136&.&.&Jamie&Taylor&</li>
+<li>103&133&Paul&Gander&07808 156576&false&false&false&false&false&false&false&false&true&.&.&.&.&.&.&.&</li>
+<li>103&134&David&Hannibal&07919 410884&false&false&false&false&false&false&true&false&false&.&137&.&Jem&Tilson&.&.&</li>
+<li>103&135&Chris&Hicks&07971 965305&false&false&true&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>103&136&Jamie&Taylor&07735 305631&false&false&false&false&false&false&false&true&false&.&.&132&.&.&Alan&Alger&</li>
+<li>103&137&Jem&Tilson&07833 452548&false&false&true&false&false&false&true&false&false&.&134&.&David&Hannibal&.&.&</li>
+<li>103&138&John&Wilson&01707 875762&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>103&139&Graham&Withers&07757 387179&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>104&140&Kevin&Bonner&07523 029076&false&false&false&false&false&true&false&true&false&.&.&143&.&.&Stephen&Hampton&</li>
+<li>104&141&Ted&Catlin&07530 899761&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>104&142&David&Colborne&07494 321787&false&false&false&false&true&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>104&143&Stephen&Hampton&07967 820177&false&false&false&false&true&false&false&true&true&.&.&140&.&.&Kevin&Bonner&</li>
+<li>104&144&Matt&Nelson&07437 205858&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>104&145&Andrew&Myles&07963 197588&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>104&146&Kieran&Myles&07947 701434&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>104&147&John&Nash&07906 935879&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>104&148&Benjamin&Shaw&07765 809664&false&false&true&false&true&false&true&true&false&.&197&197&Philip&Merrifield&Philip&Merrifield&</li>
+<li>105&149&Steve&Bartropp&07776 328000&false&false&true&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>105&150&Ashley&Drake&07444 770581&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>105&151&Jamie&Brooks&07709 324432&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>105&152&Jordan&Paterson-Proto&07772 215663&false&false&false&false&false&false&true&true&false&.&153&153&Mark&Pilborough&Mark&Pilborough&</li>
+<li>105&153&Mark&Pilborough&07975 883780&false&false&true&false&true&false&true&true&false&.&152&152&Jordan&Paterson-Proto&Jordan&Paterson-Proto&</li>
+<li>105&154&Dave&Read&07766 578424&false&false&true&false&true&false&true&false&false&.&156&.&Liam&Reade&.&.&</li>
+<li>105&155&Gordon&Reade&07810 265865&false&false&false&false&false&false&false&true&false&.&.&156&.&.&Liam&Reade&</li>
+<li>105&156&Liam&Reade&07715 572539&false&false&false&false&false&true&true&true&true&.&154&155&Dave&Read&Gordon&Reade&</li>
+<li>105&157&Trevor&Harrison&07759 099720&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>106&158&Jake&Bunce&07402 777492&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>106&159&Bob&Cartwright&01707 325742&false&false&true&false&true&true&true&true&true&.&162&162&Joe&Marchese&Joe&Marchese&</li>
+<li>106&160&Keith&Cox&07712 980852&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>106&161&Mick&Davis&.&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>106&162&Joe&Marchese&07891 820654&true&true&true&true&true&true&true&true&false&.&159&159&Bob&Cartwright&Bob&Cartwright&</li>
+<li>106&163&Paul&O'Connor&07825 051839&true&true&true&true&true&true&true&true&false&.&164&164&Rory&O'Connor&Rory&O'Connor&</li>
+<li>106&164&Rory&O'Connor&07737 463028&true&true&true&true&true&true&true&true&false&.&163&163&Paul&O'Connor&Paul&O'Connor&</li>
+<li>106&165&Chris&Walters&.&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>106&166&Shayne&White&07508 166888&true&true&false&false&true&true&false&false&false&.&.&.&.&.&.&.&</li>
+<li>107&167&Dave&Beaumont&07306 260256&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>107&168&Andy&Clarke&07545 333084&false&false&true&false&true&false&true&true&false&.&173&173&Callum&Pond&Callum&Pond&</li>
+<li>107&169&Dylan&Gibson&07938 470759&false&false&true&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>107&170&Dave&Goodby&01707 335041&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>107&171&Leigh&Griffiths&07969 976867&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>107&172&Hemant&Patel&07768 867936&false&false&false&false&true&false&false&true&true&.&.&199&.&.&Scott&Soderberg&</li>
+<li>107&173&Callum&Pond&07522 495658&false&false&false&false&true&false&true&true&false&.&168&168&Andy&Clarke&Andy&Clarke&</li>
+<li>107&174&John&Turner&07923 934355&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>107&175&Steve&Ward&07960 864098&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>108&176&Ryan&Atherley&07508 899035&false&false&false&false&false&false&false&true&false&.&.&181&.&.&Steve&O'Neill&</li>
+<li>108&177&John&Evans&07854 382366&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>108&178&Lee&McGreevy&07704 105466&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>108&179&Matt&Mortar&07770 901743&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>108&180&Bijan&Motekhasses&07425 170772&true&true&true&false&true&false&true&true&false&.&182&182&Mark&Payne&Mark&Payne&</li>
+<li>108&181&Steve&O'Neill&07904 430876&false&false&false&false&false&false&false&true&false&.&.&176&.&.&Ryan&Atherley&</li>
+<li>108&182&Mark&Payne&07411 956137&false&false&false&false&false&false&true&true&false&.&180&180&Bijan&Motekhasses&Bijan&Motekhasses&</li>
+<li>108&183&Garry&Reade&07915 908978&false&false&false&false&false&false&false&false&true&.&.&.&.&.&.&.&</li>
+<li>108&184&Mario&Priolo&07952 636015&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>109&185&Alan&Berger&07956 064626&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>109&186&Nigel&Cross&07487 778890&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>109&187&Steve&Harris&07598 683010&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>109&188&Warren&Haworth&07753 928699&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>109&189&David&Lemel&07768 917844&false&false&false&false&false&false&false&false&true&.&.&.&.&.&.&.&</li>
+<li>109&190&Craig&Phillips&07521 490595&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>109&191&Michael&Robinson&07973 214739&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>110&192&Adam&Alexander&07917 341008&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>110&193&David&Bunney&07889 923566&false&false&false&false&false&false&false&false&true&.&.&.&.&.&.&.&</li>
+<li>110&194&John&Davies&07746 708635&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>110&195&Ricky&Harding&07769 334740&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>110&196&Stuart&Madill&07535 017487&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>110&197&Philip&Merrifield&07966 568965&false&false&false&false&false&false&true&true&false&.&148&148&Benjamin&Shaw&Benjamin&Shaw&</li>
+<li>110&198&Martin&Read&07516 488717&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>110&199&Scott&Soderberg&07789 605132&false&false&false&false&false&false&false&true&false&.&.&172&.&.&Hemant&Patel&</li>
+<li>110&200&Benjamin&Somerfield&07990 752129&false&false&true&false&true&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>110&201&David&Wheeler&07873 702826&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>111&202&Peri&Arif&07432 119500&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>111&203&Danny&Claxton&.&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>111&204&Satnam&Deo&07970 474380&false&false&true&false&true&false&true&true&false&.&211&211&Kim&Sachs&Kim&Sachs&</li>
+<li>111&205&Iyad&Elias&07940 701740&false&false&true&true&true&true&true&true&true&.&209&209&Stephen&Miller&Stephen&Miller&</li>
+<li>111&206&Chris&Georgiou&07753 313693&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>111&207&Steve&Gibbs&07738 685678&false&false&true&true&true&true&true&true&false&.&210&210&Rob&Powell&Rob&Powell&</li>
+<li>111&208&Paul Jnr&Hurley&07758 927711&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>111&209&Stephen&Miller&07773 402742&false&false&true&true&true&true&true&true&false&.&205&205&Iyad&Elias&Iyad&Elias&</li>
+<li>111&210&Rob&Powell&07868 707152&false&false&true&false&true&false&true&true&false&.&207&207&Steve&Gibbs&Steve&Gibbs&</li>
+<li>111&211&Kim&Sachs&07954 588501&false&false&false&false&false&false&true&true&false&.&204&204&Satnam&Deo&Satnam&Deo&</li>
+<li>112&212&Keith&Batehup&07855 251945&false&false&false&true&false&true&false&false&true&.&.&.&.&.&.&.&</li>
+<li>112&213&Steve&Currie&07795 322098&false&false&true&false&true&false&true&true&false&.&215&215&Steve&Hilborne&Steve&Hilborne&</li>
+<li>112&214&Daniel&Davis&.&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>112&215&Steve&Hilborne&07500 667276&false&false&true&false&true&false&true&true&false&.&213&213&Steve&Currie&Steve&Currie&</li>
+<li>112&216&Neil&Lightfoot&07512 855563&false&false&true&false&true&false&true&true&false&.&219&219&Ali&Tehrani&Ali&Tehrani&</li>
+<li>112&217&Sean&Lynch&07842 838809&false&false&false&true&false&true&false&false&false&.&.&.&.&.&.&.&</li>
+<li>112&218&Ian&Sanders&07763 540379 &false&false&true&false&true&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>112&219&Ali&Tehrani&07432 020698&false&false&true&false&true&false&true&true&false&.&216&216&Neil&Lightfoot&Neil&Lightfoot&</li>
+<li>112&220&Tony&Trinder&01707 266302&false&false&false&true&false&true&false&false&false&.&.&.&.&.&.&.&</li>
+<li>112&221&Nigel&Ward& 07590 250562&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>113&222&Sean&Caulfield&07831 482165&false&false&false&false&true&true&false&true&true&.&.&228&.&.&Mark&Feuell&</li>
+<li>113&223&Liam&Doocey&07429 083951&false&false&true&false&true&false&true&true&false&.&225&225&Andy&Herdman&Andy&Herdman&</li>
+<li>113&224&Joe&Dormer&07964 516358&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>113&225&Andy&Herdman&07534 714828&false&false&true&false&true&false&true&true&false&.&223&223&Liam&Doocey&Liam&Doocey&</li>
+<li>113&226&Adrian&Doherty&07966 208848&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>113&227&Simon&Clews&.&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>113&228&Mark&Feuell&.&false&false&false&false&false&false&false&true&false&.&.&222&.&.&Sean&Caulfield&</li>
+<li>114&229&Bob&Chapman&07736 809360&false&false&false&false&true&true&false&true&false&.&.&231&.&.&Che&Cheriton&</li>
+<li>114&230&Sean&Chapman&07743 391024&false&false&false&false&true&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>114&231&Che&Cheriton&07933 237668&false&false&false&false&false&false&false&true&false&.&.&229&.&.&Bob&Chapman&</li>
+<li>114&232&Peter&Freeman&07836 788675&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>114&233&Hugh&McCague&07594 635727&false&false&false&false&true&true&false&true&false&.&.&236&.&.&David&Skeggs&</li>
+<li>114&234&Ken&Montague&07826 747270&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>114&235&Steve&Roles&07952 370805&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>114&236&David&Skeggs&07760 467551&false&false&false&false&false&false&false&true&true&.&.&233&.&.&Hugh&McCague&</li>
+<li>114&237&Simon&Skeggs&07900 182299&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>114&238&Matthew&Woodhead&07954 498591&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>115&239&Darren&Goldsmith&07711 834404&false&false&false&false&true&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>115&240&Nick&Hodgson&07715 342862&false&false&false&false&true&false&false&true&false&.&.&245&.&.&Peter&Warner&</li>
+<li>115&241&Oliver&Kightley&07432 618199&false&false&true&false&true&false&false&true&false&.&.&246&.&.&David&Wilde&</li>
+<li>115&242&Simon&Lund&07725 445300&false&false&false&false&true&false&false&true&false&.&.&243&.&.&John&Potts&</li>
+<li>115&243&John&Potts&07584 150762&false&false&false&false&true&false&false&true&false&.&.&242&.&.&Simon&Lund&</li>
+<li>115&244&James&Warner&07493 108919&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>115&245&Peter&Warner&07786 438694&false&false&false&false&true&true&false&true&true&.&.&240&.&.&Nick&Hodgson&</li>
+<li>115&246&David&Wilde&07791 285986&false&false&false&false&true&true&false&true&false&.&.&241&.&.&Oliver&Kightley&</li>
+<li>116&247&Jack&Caulfield&07821 059568&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>116&248&Joe&Caulfield&07881 861804&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>116&249&Archie&Cottrell&07849 684551&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>116&250&John&Goodbrand&07776 052824&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>116&251&Andrew&Mills&07436 683677&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>116&252&Gary&Nash&07916 345368&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>116&253&Ben&Warne&07904 471617&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>116&254&Alan&Woodhead&01438 717371&false&false&false&false&false&false&false&false&true&.&.&.&.&.&.&.&</li>
+<li>117&255&Rob&Bailey&07921 055236&false&false&false&false&true&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>117&256&Derek&Brum&07803 159234&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>117&257&Nick&Brunel&07794 964492&false&false&false&false&true&false&false&true&false&.&.&261&.&.&Wayne&Digby&</li>
+<li>117&258&Rob&Brunson&07973 402619&false&false&false&false&true&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>117&259&Eric&Carter&07309 722322&false&false&false&false&true&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>117&260&Denis&Cooper&07850 593358&false&false&false&false&true&false&false&true&false&.&.&264&.&.&Jim&Thompson&</li>
+<li>117&261&Wayne&Digby&07530 592839&false&false&false&false&true&false&false&true&false&.&.&257&.&.&Nick&Brunel&</li>
+<li>117&262&Lee&Hale&07490 633647&false&false&false&false&true&true&false&false&false&.&.&.&.&.&.&.&</li>
+<li>117&263&Matt&Hanley&07796 574312&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>117&264&Jim&Thompson&01438 716350&false&false&false&false&true&true&false&true&true&.&.&260&.&.&Denis&Cooper&</li>
+<li>117&265&Scott&Wannell&07908 113025&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>118&266&Jamie&Beeney&07969 819626&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>118&267&David&Howe&07946 334222&false&false&false&true&false&true&false&false&false&.&.&.&.&.&.&.&</li>
+<li>118&268&Graham&Howe&07894 387843&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>118&269&Rob&Mason&07927 315084&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>118&270&Martyn&McGuinness&07545 925609&false&false&false&false&false&false&false&false&true&.&.&.&.&.&.&.&</li>
+<li>118&271&Russell&Owen&07545 925608&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>118&272&David&Peake&07437 018500&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>118&273&Paul&Pollard&.&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>118&274&Paul R&Smith&07971 838337&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+<li>118&275&Hans&Somerville&07463 865333&false&false&false&false&false&false&false&false&false&.&.&.&.&.&.&.&</li>
+</ul>
+
+
+
+
+</div>
+
+</body>
+</html>
