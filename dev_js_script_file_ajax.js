@@ -1,6 +1,6 @@
 //#################
 $(document).on('click', '#test_button', function() {
-alert("4start");
+alert("git start");
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {alert("ready state " +this.readyState+ "status " + this.status);
     //   if (this.readyState == 4 && this.status == 200) {
@@ -9,7 +9,7 @@ alert("4start");
       //}
     };
     //http://localhost
-    xhttp.open("GET", "ajax_info.txt");
+    xhttp.open("GET", "ajax_text_doc.txt");
     xhttp.send();
   })
   /*
